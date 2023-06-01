@@ -8,6 +8,7 @@
     <title>ratolf.org</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/jquery.flipster.min.css">
 </head>
 <body id="bdy">
     <div class="parent" onclick="openNav()">
@@ -165,11 +166,7 @@ width: 100%;
 background: url(./image/images16.jpeg);
 background-size: cover;
 ">	
-	<img class="" 
-	style="width: 100%;
-	height:100%;
-    position: absolute;
-    display: none;" src="./image/images (16).jpeg">
+	
 <!--Slide 1
 <div class="slid" id="xli_1"></div>
 
@@ -463,8 +460,75 @@ margin-top: -5px;
 
 <div class="mind_big desktop" style="margin-top: 40px;">
 
-    <div class="mind_box">
+    <div class="_2box">
+        <div>
+            <img src="./image/qu.png" style="width: 30%;" >
+            <img src="./image/qui.png" style="width: 68%;" >
+        </div>
         <!---->
+        <div style="background: url(./image/bg-grey.png);
+        padding: 1px;
+        padding-left: 0;
+        background-size: cover;">
+        <div class="pic_con">
+            <img src="image/pastor peter.jpg" class="pastor_pic_2" alt="Pastor's picture">
+            <div class="pastor_name_2">PASTOR ADEKUNLE Remmy-green PETER</div> 
+        </div>
+        <h2 class="name_2" style="padding-right:20px;color:blue">
+            Story Behind River and Tree of Life Foundation (RATOLF)
+        </h2>
+        <!---->
+            <p class="pa" style="
+            padding-right: 20px;
+            width: 345px;
+            height: 200px;
+            box-sizing: border-box;
+            overflow: hidden;">
+                <span class="drop_cap">I</span> started this foundation River and Tree of Life Foundation - RATOLF because of the Vow I made with God. My growing up is very hard and painful, I did not enjoy most of my teenage life. I went through pain and agony as I was growing up, I was helpless, abused, neglected, and experienced homelessness many times. I did not have a brother, sister, or uncle to help me. 
+                
+                    <div onclick="showStory(event)" class="myBtn">
+                        Read more
+                    </div>
+            </p>
+        </div>
+    </div>
+
+    <div class="_2box f_ri">
+        <div>
+            <img src="./image/qui2.png" style="width: 100%;" >
+        </div>
+        <!---->
+        <div style="background: url(./image/bg-grey2.png);
+        padding: 1px;
+        padding-left: 0;
+        background-size: cover;">
+        <div class="pic_con">
+            <img src="image/qui3.jpg" class="pastor_pic_2" alt="Pastor's picture">
+        </div>
+        <h2 class="name_2" style="padding-right:20px;color:blue">
+            3 Tragedy that happened to me within 3 years
+        </h2>
+        <!---->
+            <p class="pa" style="
+            padding-right: 20px;
+            width: 345px;
+            height: 200px;
+            box-sizing: border-box;
+            overflow: hidden;">
+                <span class="drop_cap">M</span>y grandfather died in 1978, my grandmother died a year later, and my father died in early 1981, 3 years after my grandfather died. These 3 tragedies caused me a lot of pain in life as I was growing up. My father died while I was in my first year of secondary school. I became helpless and empty when my father died because there was no one to play the role of a father figure in my life. I made a lot of mistakes as I was growing up because there was no one to counsel me. I started staying with my uncle after the death of my grandfather. 
+                <div >
+                    <div onclick="show3_tragedy(event)" class="myBtn">Read more</div>
+                </div>
+            </p>
+        </div>
+    </div>
+    
+</div>
+<!--
+<div class="mind_big desktop" style="margin-top: 40px; display: none;">
+
+    <div class="mind_box">
+
         <div class="pic_con">
             <img src="image/pastor peter.jpg" class="pastor_pic_2" alt="Pastor's picture">
             <div class="pastor_name_2">PASTOR ADEKUNLE Remmy-green PETER</div> 
@@ -472,7 +536,7 @@ margin-top: -5px;
         <h2 class="name_2">
             Story Behind River and Tree of Life Foundation (RATOLF)
         </h2>
-        <!---->
+        
         <p class="pa">
             <span class="drop_cap">I</span> started this foundation River and Tree of Life Foundation - RATOLF because of the Vow I made with God. My growing up is very hard and painful, I did not enjoy most of my teenage life. I went through pain and agony as I was growing up, I was helpless, abused, neglected, and experienced homelessness many times. I did not have a brother, sister, or uncle to help me. 
             <div >
@@ -491,7 +555,7 @@ margin-top: -5px;
         </p>
     </div>
 </div>
-
+-->
 <div id="an_element" style="background: #fff;display:none;position: fixed;"></div>
 <div id="story_behind" class="story" >
         <div class="story2">
@@ -547,10 +611,17 @@ According to the frame of God, He laid into the heart of my maternal grandfather
     Save Nigerian Abandoned and Molested Children initiative
     </h2>    
 
-    <p class="mind_box font17 justified" style="height: 160px;background:#fff;margin-top: -10px;">
+    <p class="mind_box font17 justified" style="
+        height: 160px;background:#fff;
+        background: url(./image/bg-save-grey-1.png);
+        background-size: cover;
+        margin-top: -10px;
+    ">
         We are fundraising focusing on Save Nigerian Abandoned and Molested Children initiative of the River and Tree of Life Foundation (RATOLF). RATOLF is an NGO registered in Nigeria, to launch an emergency clarion rescue call to alert the world on the neglect of the molested and abandoned children of Nigeria. This is much more alarming in the ghetto/rural based areas of the country.
     </p>
-    <p class="mind_box f_ri font17 justified" style="height: 160px;background:#fff;margin-top: -10px;">
+    <p class="mind_box f_ri font17 justified" style="height: 160px;background:#fff;
+    background: url(./image/bg-save-grey-2.png);
+    background-size: cover;margin-top: -10px;">
         Initially, the founders of RATOLF have been the sole sponsors of most of the NGO’s community engagement activities for the past 12 years. RATOLF has been paying the school fees of several children in Nigeria, helping and feeding the homeless in South Africa and Nigeria, and supporting small churches in Nigeria by providing musical equipment.
     </p>
 </div>
@@ -559,32 +630,83 @@ According to the frame of God, He laid into the heart of my maternal grandfather
 <div class="mind_big font17" style="margin-top: 0px;"> 
 
     <div class="_2box" style="background: none;">
-        <div class="_4box text_box ce" style="background: #fff;">
+        <div class="_4box text_box ce" style="
+            color:#fff;
+            background: rgb(2, 100, 5);
+            background: url(./image/bg-save-1.png);
+            background-size: cover;
+        ">
             Our focus is mainly on Nigerian abandoned and Molested children
         </div>
-        <div class="_4box f_ri text_box ce" style="background: #fff;">
+        <div class="_4box f_ri text_box ce" style="
+        color:#fff;
+        background: rgb(2, 100, 5);
+        background: url(./image/bg-save-2.png);
+        background-size: cover;
+    ">
             The need for support has grown beyond has grown beyond our means, and we are asking for your help.
         </div>
     </div>
     <div class="_2box f_ri" style="background:none;">
-        <div class="_4box text_box ce" style="background: #fff;">
+        <div class="_4box text_box ce" style="
+        color:#fff;
+        background: rgb(12, 37, 230);
+        background: url(./image/bg-save-3.png);
+        background-size: cover;
+    ">
             Do you know that over 17,000,000 children are abandoned in Nigeria, some of these children are molested?
         </div>
-        <div class="_4box f_ri text_box ce" style="background: #fff;">
+        <div class="_4box f_ri text_box ce" style="
+        color:#fff;
+        background: rgb(100, 2, 2);
+        background: url(./image/bg-save-4.png);
+        background-size: cover;
+    ">
             RATOLF’s project will initially train 10 Local leaders to facilitate agency-based empowerment workshops and support 300 vulnerable girls and boys with tuition fees, school supplies, food, and counselling.
         </div>
     </div>
 
-    <div class="mind_box font17 justified" style="height: 100px;background: #fff;box-shadow: 4px 4px 14px #ccc;">
+    <div class="mind_box font17 justified" style="height: 115px;box-shadow: 4px 4px 14px #ccc;
+    color:#fff;
+    background: rgb(4, 56, 152);
+    background: url(./image/bg-save-5.png);
+    background-size: cover;
+">
         However, the need for support has grown beyond the capacity of an individual; if at all, we want to achieve the objective of the initiative. Therefore, we are calling for your support and donations to help others.
     </div>
-    <div class="mind_box f_ri font17 justified" style="height: 100px;background: #fff;box-shadow: 4px 4px 14px #ccc;">
+    <div class="mind_box f_ri font17 justified" style="height: 115px;box-shadow: 4px 4px 14px #ccc;
+    color:#fff;
+    background: rgb(100, 66, 2);
+    background: url(./image/bg-save-6.png);
+    background-size: cover;
+">
         We are raising $50,000 for SAVE ABANDONED AND MOLESTED CHILDREN IN NIGERIA. Donate as low as $20 dollars today, give hope to the hopeless and save generations.
     </div>
 </div>
 </div>
 
-<div class="mind_big desktop">
+<!-- start pictures carousel -->
+<h3 class="ce">OUR LATEST ACTIVITIES</h3>
+
+<div class="hero">
+	<div class="carousel">
+		<ul>
+			<li><img src="./image/p1.jpg" ></li>
+			<li><img src="./image/p2.jpg" ></li>
+			<li><img src="./image/p3.jpeg" ></li>
+			<li><img src="./image/p4.jpeg" ></li>
+			<li><img src="./image/p5.jpeg" ></li>
+			<li><img src="./image/p6.jpeg" ></li>
+			<li><img src="./image/p7.jpeg" ></li>
+			<li><img src="./image/p8.jpeg" ></li>
+			<li><img src="./image/p9.jpeg" ></li>
+			<li><img src="./image/p10.jpeg" ></li>
+		</ul>
+	</div>
+</div>
+<!-- start pictures carousel -->
+
+<div class="mind_big desktop" style="margin-top: -250px;">
 
     <table class="ce" style="margin: auto;min-width:950px;">
         <tr>
@@ -1120,4 +1242,15 @@ function closeNav() {
 <script src="./js/jq.js"></script>
 <script src="js/slider_top.js"></script>
 <script src="./js/story.js"></script>
+<script src="./js/jquery.flipster.min.js"></script>
+<script>
+	$('.carousel').flipster({
+		style:'carousel',
+		spacing:-0.3,
+		autoplay:1300,
+		pauseOnHover: true,
+		loop:true
+	});
+	//math tricks
+</script>
 </html>
