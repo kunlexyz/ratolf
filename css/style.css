@@ -9,6 +9,10 @@
     font-family: myFont;
     src: url(./tt0142m_.ttf);
 }
+@font-face {
+    font-family: calib;
+    src: url(./trebuc.ttf);
+}
 
 body{
     margin: 0px;
@@ -53,6 +57,7 @@ body{
     height: 100vh;
     background: rgba(0,0,0, 0.8);
     display: none;
+    z-index: 100;
 }
 .story2{
     margin: 10px auto;
@@ -94,9 +99,8 @@ body{
     font-size: 17px;
 }
 .myBtn{
-    background: #fff;
-    border: solid rgb(153, 0, 0);
-    color: rgb(153, 0, 0);
+    background: #00f;
+    color: #fff;
     width: 150px;
     display: inline-block;
     margin: auto;
@@ -107,27 +111,29 @@ body{
 }
 .pic_con {
     float: left;
-    width: 35%;
+    width: 30%;
     text-align: center;
-    padding: 2px;
+    padding: 3px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-right: 20px;
     background: #fff;
-    margin-right: 10px;
 }
 .pastor_pic_2{
     width: 100%;
     display: block;
 }
 .pastor_name_2{
-    color:#b2502d;
+    color:blue;
     font-weight: bold;
     font-size: 16px;
-    font-family: myFont;
+    font-family: calib;
     margin: auto;
 }
 .name_2{
     color: #b2502d;
     text-align: left;
-    font-family: myfont;
+    font-family: calib;
 }
 .justified{text-align: justify;}
 
@@ -280,4 +286,23 @@ transform: rotate(-37.5deg) skew(10deg);
 	position: absolute;
 }
 .hid{display: none;}
+
 /**/
+
+/* for picture carousel */
+.hero{
+	width:100%;
+	height:100vh;
+	background: #fff;
+	overflow: hidden;
+}
+.hero .carousel{
+	width: 300px;
+	margin: 0px auto 0;
+	overflow: visible;
+}
+.carousel img{
+	-webkit-box-reflect: below 10px linear-gradient(rgba(255,255,255, 0.1),rgba(255,255,255, 0.1),rgba(255,255,255, 0.3));
+	max-width:420px;
+	max-height: 280px;
+}
