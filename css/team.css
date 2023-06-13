@@ -1,4 +1,4 @@
-
+*{font-family: calib;}
 @font-face {
     font-family: calib;
     src: url(./trebuc.ttf);
@@ -42,7 +42,6 @@
 .more_name{
     font-size: 26px;
     color: blue;
-    margin-top: 20px;
 }
 .more_title{
     font-size: 18px;
@@ -56,6 +55,13 @@
     cursor: pointer;
     text-align: center;
     margin-top: 60px;
+}
+.more_head{
+    border-left:solid 6px #99f;
+    background:#eef;
+    padding:10px;
+    padding-left:40px;
+    font-family: calib;
 }
 
 @media only screen and (max-width: 480px){
