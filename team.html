@@ -28,26 +28,34 @@
     border-bottom-left-radius: 50px;
     border: solid 2px #fff;
     background:linear-gradient(to right, #07b2f0, #07b2f0, #0028fb, #0028fb, #bf00ff) ;
+    box-sizing: border-box;
 }
 .team_pic{
-    width:175px;
-    height: 175px;
+    box-sizing: border-box;
+    width: 185px;
+    height: 185px;
     border-radius: 50%;
-    border: solid 2px #fff;
+    /* border: solid 2px #fff; */
     background: #fff;
     margin: auto;
     margin-top: -75px;
     margin-bottom: 15px;
-    box-shadow: 10px 10px 18px rgb(177, 176, 176);
-    overflow: hidden;
+    box-shadow: 10px 10px 18px rgb(177 176 176);
+    overflow: hidden; 
+    background: linear-gradient(to left, #07b2f0, #07b2f0, #0028fb, #0028fb, #bf00ff);
+    padding: 3px;
+    text-align: center;
 }
 .team_pic img{
     width:175px;
     height: 175px;
     border-radius: 50%;
+    border: solid 2px #fff;
 }
 .team_title{
     font-size: 18px;
+    min-height: 20px;
+    color: #000;
 }
 .team_title_2{
     font-size: 16px;
@@ -64,6 +72,7 @@
 .team_btn{
     float: left;
     width: 110px;
+    cursor: pointer;
 }
     </style>
 
@@ -161,7 +170,7 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </div> 
 
 <!--heading end -->
-<div class="mind_big ce" style="background: #d7eef5;margin-top: 3px;">
+<div id="card_container" class="mind_big ce" style="background: #d7eef5;margin-top: 3px;">
 
     <div class="line"></div>
 
@@ -178,6 +187,22 @@ padding:7px 25px;background-size: cover; background-position: center; background
             <div class="team_name">Remmy-Greenpasture Adekunle Peter.
                 </div>
             <div class="team_title_2">(President & Founder of RATOLF)</div>
+        </div>
+
+        <img class="team_btn" onclick="bring_more(event,'Pastor_story')" src="./image/btn.png" alt="">
+
+    </div>
+
+    <div class="team_card">
+        <div class="team_h"></div>
+        <div class="team_pic">
+            <img class="team_pi" src="./image/Minister Mwaka Peter.png" alt="">
+        </div>
+        <div class="team_profile">
+            <div class="team_title">Minister </div>
+            <div class="team_name">Mwaka Peter.
+                </div>
+            <div class="team_title_2">Co-Founder & CEO( RATOLF)</div>
         </div>
 
         <img class="team_btn" onclick="bring_more(event,'Pastor_story')" src="./image/btn.png" alt="">
@@ -240,11 +265,13 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </div>
  
  <div id="more" class="more ce">
- <div id="Pastor_story" class="story_box" 
- >
+    <div id="The_story" class="story_box" ></div>
+
+ <div id="Pastor_story" class="story_box" >
     <div class="more_box">
         <img src="./image/Pastor_remmy.png">
         <div style="display: inline-block;">
+            <div class="more_title">Pastor</div>
             <div class="more_name">
                 Remmy-Greenpasture Adekunle Peter. 
             </div>
@@ -375,6 +402,40 @@ padding:7px 25px;background-size: cover; background-position: center; background
 
  </div>
 
+ <div id="MwakaPeter_story" class="story_box" 
+ >
+    <div class="more_box">
+        <img src="./image/Pastor_remmy.png">
+        <div style="display: inline-block;">
+            <div class="team_title">Minister </div>
+            <div class="team_name">Mwaka Peter</div>
+            
+            <hr>
+            <div class="more_title">
+                Co-Founder& CEO( RATOLF)
+            </div>
+            <div onclick="hideTeamStory()" class="more_btn">« Back</div>
+        </div>
+
+    </div>
+ 
+ <h3 style="
+     border-left:solid 6px #99f;
+     background:#eef;
+     padding:10px;
+     padding-left:40px;
+     font-family: calib;
+ ">Hebrew 12:1</h3>
+    <p>
+    </p>
+
+    <div style="max-width: 750px;margin:20px auto;">
+        <div onclick="hideTeamStory()" class="more_btn" style="margin:0px;">
+            « Back
+        </div>
+    </div>
+
+ </div>
 
 <div id="Dr_story" class="story_box">
     <div class="more_box">
