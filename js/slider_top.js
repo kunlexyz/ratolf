@@ -263,7 +263,7 @@ function timeIt(){
     tim++;
     st = setTimeout(timeIt, 100);
 }
-timeIt();
+//timeIt();
 
 var kan=0;
 function kang(x,y){
@@ -283,6 +283,7 @@ function kang(x,y){
     */
 }
 
+st = setTimeout(timeIt, 20000);
 function rager(x){
     //alert('hello');
     tim=0;
@@ -292,6 +293,8 @@ function rager(x){
     sliderTurna();
     st = setTimeout(timeIt, 20000);
 }
+$(document).ready(function(){rager(1);});
+
 
 var im='';
 for(i=1;i<7;i++){

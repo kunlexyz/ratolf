@@ -341,13 +341,25 @@ Personal:
 Bunmi Johnson is happily married to Yinka Johnson and cherishes family life. With a passion for strategic communication, publishing, and inspiring young minds, Bunmi continues to make significant contributions to the industry while upholding values of excellence and professionalism.
 </p>
 `;
+Sis_arah =`    
+    <p>
+    Arah James is a gender-based violence activist and has worked with NGO’s such as Women Against Rape (WAR), Professional Organization for Women in Antigua (POWA) advocating for gender parity and gender security.  She has also worked with Community Charitable Ministries (CCM) in addressing the issues of the poor and ostracized in the society.
+    She has used her gifts and talents while working with El Shaddai Promotions to spearhead Christian based talent shows in Antigua Barbuda.  She has hosted and performed on many of these dinners and galas.
+    </p><p>
+    Arah is a member of the United Progressive party (UPP) a political organization in Antigua Barbuda.  She holds the position Secretary of the St. Peter’s Parish Branch and served as the Public Relations Officer of the Women’s Forum.  She also served as a member of the Movement a political watchdog advocating for political and constitutional change
+</p><p>
+    Arah has worked extensively as an Administrator and Liaison Officer with the government of Antigua and Barbuda and other private entities.  She is convinced according to 1 Corinthians 12: 28 that she has been anointed with the gifts of helps and administration.  She loves planning, coordinating, and seeing programs come together.  She is passionate about her walk with the Lord and believes that “we can win by righteousness”.Arah currently functions in the position of Executive Network Relations for the River and the Tree of Life Foundation and serves as the Vice Chairman of the RATOLF Events Planning Committee.
+    </p>
+    `;
 
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
+    ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF','Bunmi Johnson.png',Bunmi_johnson],
+    ['Dr.','Funmi Andrew:','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
     ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
     
-    ['Dr.','Funmi Andrew:','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
+    ['Ms.','Ephrathah Arah James','Director Network Relations','Sister_arah.png',Sis_arah],
     ['','Adegeye Michael Oluyemi','Publicity Assistant (RATOLF)','compassion.jpg',Adegeye_michael],
     ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
  
@@ -356,7 +368,6 @@ var team =[
     
     ['','Michael Olatunji ONI','Advisory Board (RATOLF)','Michael Olatunji ONI.png',Michael_olatunji],
     
-    ['','Bunmi Johnson','','Bunmi Johnson.png',Bunmi_johnson],
     //['','','',],
 ];
 
