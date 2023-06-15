@@ -355,7 +355,7 @@ Sis_arah =`
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
-    ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF','Bunmi Johnson.png',Bunmi_johnson],
+    ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF Nigeria.','Bunmi Johnson.png',Bunmi_johnson],
     ['Dr.','Funmi Andrew:','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
     ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
     
