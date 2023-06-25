@@ -356,24 +356,27 @@ var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
     ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF Nigeria.','Bunmi Johnson.png',Bunmi_johnson],
+    ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
+ 
     ['Dr.','Funmi Andrew:','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
-    ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
     
     ['Ms.','Ephrathah Arah James','Director Network Relations','Sister_arah.png',Sis_arah],
     ['','Adegeye Michael Oluyemi','Publicity Assistant (RATOLF)','compassion.jpg',Adegeye_michael],
-    ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
- 
+    
+    //['','','',],
+];
+var Advisory=[
+    ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
     
     ['Dr.','Osungbohun Jacob Jesusrich','Advisory Board (RATOLF)','Dr. Osungbohun Jacob Jesusrich.png',Dr_osungbohun], 
     
     ['','Michael Olatunji ONI','Advisory Board (RATOLF)','Michael Olatunji ONI.png',Michael_olatunji],
-    
-    //['','','',],
+
 ];
 
 //function team_card(a,b,c,d,e)
-function team_card(a){
-    let content = team[a];
+function team_card(a,arr){
+    let content = arr[a];
     let card = `
     <div class="team_card">
         <div class="team_h"></div>
@@ -403,10 +406,15 @@ function team_card(a){
     <div style="padding: 20px 0;">
     <img style="width:260px" src="./image/meet.png" alt="" srcset="">
     </div>`;
+    line = `<div class="line"></div>`;
 //team_card(0);
 //team.forEach();
-var all_team='';
+var all_team='';adv_team="";
 for(i=0;i<team.length;i++){
-   all_team +=team_card(i);
+   all_team +=team_card(i,team);
 }
-document.getElementById('card_container').innerHTML=headies+all_team;
+all_team+=line+"<h2>Advisory Board </h2>";
+for(i=0;i<Advisory.length;i++){
+   all_team +=team_card(i,Advisory);
+}
+document.getElementById('card_container').innerHTML=headies+all_team+line;
