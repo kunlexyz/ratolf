@@ -1,0 +1,17 @@
+.trans{            
+    color: #fff;
+    text-align: justify;
+    background: rgba(4,9,30,0.5);
+    font-size: 20px;
+    padding: 50px;
+    font-family: calib;
+    min-height: 245px;
+}
+.text_big{
+    font-size: 50px;
+    font-weight: bolder;
+}
+._2box p{
+    font-size: 20px;
+    text-align: justify;
+}

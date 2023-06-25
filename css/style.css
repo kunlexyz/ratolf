@@ -1,5 +1,5 @@
 * {
-    font-family: myFont;
+    font-family: calib;
 }
 @font-face {
     font-family: the_fxx;
@@ -17,6 +17,14 @@
 body{
     margin: 0px;
     /* text-align: center; */
+}
+
+.head_nav{
+    display: inline-block;
+    text-align: right;
+}
+.head_btn{
+    display: inline-block;
 }
 .ce{text-align: center;}
 .mind_big {
@@ -158,18 +166,50 @@ body{
     display: inline-block;
 }
 .r img{width: 100%;}
-
+ul{display: block;}
 li{
-    display: inline;
-    margin: 8px;
+    display: inline-block;
+    margin: 3px;
     color: white;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 li:hover{
-    border-bottom: solid 4px white;
-    transition: 2s;
+    border-top: solid 4px white;
     cursor: pointer;
+    background: #00f;
+    color:#fff;
 }
+.dd{
+    position: absolute;
+    background: #00f;
+    top: 70px;
+    transition: 2s;
+    height: 0px;
+    overflow: hidden;
+}
+.dd_menu{
+    color: #e8f706;
+    margin: 2px;
+    padding: 10px 5px;
+    background: linear-gradient(#00f,rgb(3, 3, 95));
+}
+#home:hover #home_drop{
+    height: 166px;
+}
+#about:hover #about_drop{
+    height: 371px;
+}
+#team:hover #team_drop{
+    height: 85px;
+}
+#get:hover #get_drop{
+    height: 207px;
+}
+#donate:hover #donate_drop{
+    height: 185px;
+    margin-left: -40px;
+}
+
 .nav_image{
     text-align: left;
 }
