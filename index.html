@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/jquery.flipster.min.css">
+    <link rel="stylesheet" href="./css/form.css">
 </head>
 <body id="bdy">
     <div class="parent" onclick="openNav()">
@@ -1177,6 +1178,225 @@ As a result of the suffering, I went through when I was growing up, when I see s
 </div>
 -->
 
+<div id="slide_con" style="width:552px;border:solid 2px #aaa;margin: auto;">
+	<div class="form_con" style="width:552px;/*height: 727px;*/border:solid 2px #aaa;margin: auto;text-align: center;font-size: 18px;padding: 0;display: block;">
+		<h2 style="margin-bottom :15px;">The form goes here</h2>
+		<div id="line_green" style="padding: 3px;margin:auto;margin-bottom:15px;background:#4cc68d;width:100px;border-radius: 10px;"></div>
+
+		<div style="color: #999;max-width:400px;margin: auto;">
+		Help our organization by donating today! All donations go directly to making a difference for our cause.
+		</div>
+		<img src="./image/bg_donate_package.jpg" style="width:100%; margin:20px 0 10px;" />
+		<div style="
+		background: #fbfbfb;">
+			<div class="_3bx" >
+				$200
+				<div class="small_text">raised</div>
+			</div>
+			<div class="_3bx" >
+				1
+				<div class="small_text">donation</div>
+			</div>
+			<div class="_3bx" >
+				$1,000,000
+				<div class="small_text">goal</div>
+			</div>
+		</div>
+
+		<div style="width:90%;height:20px;background:#e3e0e0;border-radius:20px;margin:20px auto;"></div>
+
+		<div onclick="sli_form(1)" style="padding: 20px;">
+			<div style="border-radius: 5px;background:#2ac77a;
+			color:#fff;font-size: 22px;
+			display: inline-block;margin: auto;
+			padding:20px 30px;
+			cursor: pointer;
+			">Donate Now &rarr;</div>
+
+		</div>
+
+		<div>
+			<div class="donate_cir" style="background: #111;" ></div>
+			<div class="donate_cir" onclick="sli_form(1)" ></div>
+			<div class="donate_cir" onclick="sli_form(2)" ></div>
+		</div>
+		<div class="form_footer" >
+			<img src="./image/padlock.png" style="vertical-align: text-top;" />
+			Secure Donation
+		</div>
+
+	</div>
+
+	<div class="form_con" id="_2" style="width:552px;/*height: 727px;*/border:solid 2px #aaa;margin: auto;text-align: center;font-size: 16px;padding: 0;">
+		
+		<div style="margin-bottom :15px;color: #999;background: #f7f7f7;
+		font-weight: 800;
+		padding: 20px;
+		">
+			<div style="position:absolute;padding:0 20px;">&lt;</div>
+			Choose Amount
+		</div>
+		<div style="color: #999;max-width:400px;margin: auto;">
+		How much would you like to donate? As a contributor to RATOLF we make sure your donation goes directly to supporting our cause.
+		</div>
+
+		<div style="
+			padding: 15px;
+			margin: 30px auto;
+			width: 205px;
+			border: solid 2px;
+			border-radius: 10px;color: #999;
+    		padding-left: 0;
+		">
+			<div style="font-size: 18px;
+				border-right:solid 1px;
+				display: inline-block;
+				padding:10px 20px;
+				padding-left: 0;
+				font-family: myFont;
+				text-align: center;
+				"
+			>$</div>
+			<div id="amount" style="
+			display: inline-block;
+			padding: 0 40px;
+			font-size: 45px;
+			vertical-align: middle;
+			color: #111;
+			box-sizing: border-box;
+			width: 127px;
+			text-align: right;
+			">
+			50</div>
+		</div>
+
+		<div onclick="dona(0,50)" class="botini btn_green btn_green_re">
+			<sup class="sup_dola">$</sup>50
+		</div>
+
+		<div onclick="dona(1,100)" class="botini btn_green">
+			<sup class="sup_dola">$</sup>100
+		</div>
+
+		<div onclick="dona(2,150)" class="botini btn_green">
+			<sup class="sup_dola">$</sup>150
+		</div>
+
+		<div onclick="dona(3,200)" class="botini btn_green">
+			<sup class="sup_dola">$</sup>200
+		</div>
+
+		<div onclick="dona(4,250)" class="botini btn_green">
+			<sup class="sup_dola">$</sup>250
+		</div>
+
+		<div onclick="dona(5,'custom')" class="botini btn_green" style="font-size: 16px;padding: 15px 0;text-align: center;">
+			Custom<br> Amount
+		</div>
+
+		<div onclick="sli_form(2)" class="botini btn_green" 
+		style="
+			font-size: 22px;padding: 15px 0;text-align: center;
+			margin: 40px auto;width: 250px;cursor: pointer;
+		">
+			Continue &rarr;
+		</div>
+
+		<div>
+			<div class="donate_cir" onclick="sli_form(0)" ></div>
+			<div class="donate_cir" style="background: #111;" ></div>
+			<div class="donate_cir" onclick="sli_form(2)" ></div>
+		</div>
+		<div class="form_footer">
+			<img src="./image/padlock.png" style="vertical-align: text-top;" />
+			Secure Donation
+		</div>
+
+	</div>
+
+	<div class="form_con" id="_3" style="width:552px;/*height: 727px;*/border:solid 2px #aaa;margin: auto;text-align: center;font-size: 16px;padding: 0;color:#999;">
+		
+		<div style="margin-bottom :15px;color: #999;background: #f7f7f7;
+		font-weight: 800;
+		padding: 20px;
+		">
+			<div style="position:absolute;padding:0 20px;">&lt;</div>
+			Add Your Information
+		</div>
+		<div style="color: #999;max-width:400px;margin: auto;">
+		Who's giving today?
+		<div style="font-size: 12px;font-style:italic;margin-top: 5px;">
+			We'll never share this information with anyone
+		</div>
+		</div>
+
+		<div style="width: 95%;margin:30px auto;text-align: left;">
+			<input class="field" type="text" placeholder="First Name*"  />
+			<input class="field" type="text" style="float: right;" placeholder="Last Name"  />
+			<input class="field" type="text" 
+			style="
+				width: 100%;
+				margin-top: 15px;
+				box-sizing: border-box;" 
+			placeholder="Email Address*"  />
+		</div>
+
+		<img src="./image/setting.png" />
+		<h4>
+			Test Give with Test Donation Gateway
+		</h4>
+
+		<div>
+		<strong> How it works:</strong> There are no fields for this gateway and you will not be charged. This payment option is only for you to test the donation experience.
+		</div>
+		
+		<div style="margin: 40px auto 0px;">
+			<i>
+				Here's what your're about to donate:
+			</i>
+		</div>
+		
+		<div id="don">
+			<div>
+				<span style="font-size: 18px;font-weight:800;"> Donation Summary</span>
+				<div class="valu" style="cursor: pointer;border-bottom:solid 1px #2ac77a"><u>Edit Donation</u></div>
+			</div>
+			<div>
+				Payment Amount 
+				<div class="valu">$50</div>
+			</div>
+			<div>
+				Giving Frequency
+				<div class="valu">One time</div>
+			</div>
+			<div>
+				<span style="font-size: 18px;font-weight:800;">Donation Total</span>
+				<div class="valu">$50</div>
+			</div>
+		</div> 
+
+		<div class="botini btn_green" 
+		style="
+			font-size: 22px;padding: 15px 0;text-align: center;
+			margin: 40px auto;width: 250px;
+		">
+			Donate Now 
+		</div>
+		
+		<div>
+			<div class="donate_cir" onclick="sli_form(0)" ></div>
+			<div class="donate_cir" onclick="sli_form(1)" ></div>
+			<div class="donate_cir" style="background: #111;" ></div>
+		</div>
+		<div class="form_footer">
+			<img src="./image/padlock.png" style="vertical-align: text-top;" />
+			Secure Donation
+		</div>
+
+	</div>
+	<!-- <img style="vertical-align: top;" src="image/form3.jpg" /> -->
+ </div>
+
 <footer class="desktop_and_tab" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/Tree.jpg); width: 100%; margin: auto; text-align: center;
 font-family: the_font;">
     <div class="row ce">
@@ -1290,6 +1510,7 @@ function closeNav() {
 <script src="js/slider_top.js"></script>
 <script src="./js/story.js"></script>
 <script src="./js/jquery.flipster.min.js"></script>
+<script src="./js/form.js"></script>
 <script>
 	$('.carousel').flipster({
 		style:'carousel',
