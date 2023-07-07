@@ -21,9 +21,16 @@ function bring_more(event,k){
     ); 
     
 }
-function bring_more_2(event,k){
+function bring_more_2(event,k,aa){
    $('.story_box').css({display:'none'});
-   let mem=team[k];
+   let mem = '';
+   if(aa==='team'){
+      mem=team[k];
+      console.log('here');
+   }else{
+      mem = Advisory[k];
+      console.log('no');
+   }
    $('#The_story').css({display:'block'});
    let profile = `
    <div class="more_box">
@@ -285,14 +292,14 @@ He is happily married.
 
 Bunmi_johnson=`
 <p>
-   Bunmi Johnson is an accomplished strategic communication professional with extensive experience in managing businesses, publishing, and representing global brands. As the former managing partner of Bunmico (Publishers/Printers/Biographers), he successfully published numerous books in various fields, gaining international recognition. Currently, Bunmi serves as a key executive at Oxbrandplanet Ltd., a leading strategic communication management company.
+Bunmi Johnson is an accomplished strategic communication professional with extensive experience in managing businesses, publishing, and representing global brands. As the former managing partner of Bunmico (Publishers/Printers/Biographers), he successfully published numerous books in various fields, gaining international recognition. Currently, Bunmi serves as a key executive at Oxbrandplanet Ltd., a leading strategic communication management company.
 </p>
 <h3 class="more_head">
+
 Experience:
 </h3>
 <p>
-Managing Partner, <br>
-Bunmico (Publishers/Printers/Biographers) | Early 1990s - Present
+Managing Partner, Bunmico (Publishers/Printers/Biographers) | Early 1990s - Present
 </p><p>
 
 Led the successful publication of over a dozen books, catering to diverse international markets and professional backgrounds.
@@ -300,8 +307,8 @@ Led the successful publication of over a dozen books, catering to diverse intern
 Established strong partnerships and managed communication accounts, including the International Facility Management Association (Nigerian Chapter).
 <br>
 Founder and Lead Consultant, Oxbrandplanet Ltd. | 2013 - Present
-
 </p><p>
+
 Oversaw the publication of "A Law To Provide Protection against Domestic Violence And For Connected Purposes" for Lagos State of Nigeria.
 </p><p>
 Appointed as the West African representatives for John Maxwell Co. (Africa), a renowned global leader in leadership and training.
@@ -327,14 +334,25 @@ Board of Trustees, River and Tree of Life Foundation | 2022 - Present
 Appointed as the Country Secretary of the non-governmental organization (NGO), supporting initiatives in South Africa, Nigeria, and America.
 </p>
 <h3 class="more_head">
+
 Education and Associations:
 </h3>
 <p>
 Bachelor of Arts in Mass Communication | [Ambrose Alli University, Ekpoma, Nigeria.]
 Member, Nigerian Institute of Public Relations
-Fellow, British Society of Commerce, Nigerian Chapter
+Fellow, British Society of Commerce, Nigerian Chapter.
 </p>
 <h3 class="more_head">
+
+Honours and Awards:
+</h3>
+<p>
+AWARD, for SACRIFICIAL PROMOTION of PROFESSIONAL EXCELLENCE & GLOBAL PROSPERITY
+</p><p>
+On Sunday 15th of August, 2021 at the gathering of the Global Citizens, the community of the Global Public Relations Achievers, Bunmi was honoured with Outstanding Citizen Award, for Sacrificial Promotion of Professional Excellence & Global Prosperity.
+</p>
+<h3 class="more_head">
+
 Personal:
 </h3>
 <p>
@@ -351,7 +369,40 @@ Sis_arah =`
     Arah has worked extensively as an Administrator and Liaison Officer with the government of Antigua and Barbuda and other private entities.  She is convinced according to 1 Corinthians 12: 28 that she has been anointed with the gifts of helps and administration.  She loves planning, coordinating, and seeing programs come together.  She is passionate about her walk with the Lord and believes that “we can win by righteousness”.Arah currently functions in the position of Executive Network Relations for the River and the Tree of Life Foundation and serves as the Vice Chairman of the RATOLF Events Planning Committee.
     </p>
     `;
+Pastor_philemon =`<p>
+Philemon EdemaMafolabomi, is a native of IlajeIgbokoda Ondo State Nigeria.
+</p><p>
+Philemon had his university education at Lagos State University (LASU) witha Second-Class Upper studying Banking and Finance.
+</p><p>
+Philemon attended Ministers of God Academy Bible School where he obtaineda diploma in Theology.
+Philemon is a Senior Pastor at Christ Anointed Church International located at Oko-Afo, Badagry, Lagos State Nigeria. 
+</p><p>
 
+A Bible teacher for one decade, He is a man of vision with passion to achieve God’s purpose. He operates in the office of pastor and prophet.
+</p><p>
+     
+His vision is to move the ministry of God from one place to another and to expand and increase the kingdom of God.
+</p><p>
+     
+Philemon EdemaMafolabomiis happily married with four children. 
+</p>
+`;
+
+Christopher_a=`<p>
+Christopheris a trained teacher from the prestigeous Adeniran Ogunsanya College of Education, Ijanikin, Lagos.Also a trained caterer and event manager, he worked as caterer with Cafeteria Royale Ikeja, and Ec-Squared an outdoor catering service provider. 
+</p><p>
+He later worked as head supervisor/kitchen manager with StellaMaris catering services, when the outfit was the contract catering company for Cadbury Nig Plc. 
+</p><p>
+
+He is a writer and the author of a book titled "I Have Something To Tell You Before I Go To Bed" a romance book for matured singles and married. He later embarked on a missionary journey to Agadez in Niger Republic (2015) with Royal Missionary Outreach, a missionary outfit focused on evangelizing the desert dwellers in the Sahara, based in Lafia Nasarawa State while working as a correspondence to Church Times Nigeria. Since then, he has been into ministry work. He worked as an assistant to the late head Pastor of Breakthrough Evangelical Ministry, Abuja, later managed the church after his demise but not ordained then. (2019)
+</p><p>
+
+He later moved to work with another ministry in Abuja 'Christ Word Healing and Power Ministry, where he was ordained as a pastor in year 2021, and function as Pastor Assistant. Currently working as a personal chef to the MD of a company in Abuja.
+</p><p>
+
+Pastor Chris is happily married with a wife and wonderful children.
+</p>
+`;
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
@@ -362,6 +413,10 @@ var team =[
     
     ['Ms.','Ephrathah Arah James','Director Network Relations','Sister_arah.png',Sis_arah],
     ['','Adegeye Michael Oluyemi','Publicity Assistant (RATOLF)','compassion.jpg',Adegeye_michael],
+    ['Pastor','Philemon Mafolabomi','Administrative Manager (RATOLF)','compassion.jpg',Pastor_philemon],
+    ['Pastor','Christopher A Okolo','Vice C.O.O RATOLF Nigeria','Pastor_Crist_O.jpg',Christopher_a],
+    //['','','','',],
+
     
     //['','','',],
 ];
@@ -375,7 +430,7 @@ var Advisory=[
 ];
 
 //function team_card(a,b,c,d,e)
-function team_card(a,arr){
+function team_card(a,arr,aa){
     let content = arr[a];
     let card = `
     <div class="team_card">
@@ -390,7 +445,7 @@ function team_card(a,arr){
             <div class="team_title_2">`+content[2]+`</div>
         </div>
 
-        <img class="team_btn" onclick="bring_more_2(event,${a})" src="./image/btn.png" alt="">
+        <img class="team_btn" onclick="bring_more_2(event,${a},'${aa}')" src="./image/btn.png" alt="">
 
     </div>
     `;
@@ -411,10 +466,10 @@ function team_card(a,arr){
 //team.forEach();
 var all_team='';adv_team="";
 for(i=0;i<team.length;i++){
-   all_team +=team_card(i,team);
+   all_team +=team_card(i,team,'team');
 }
 all_team+=line+"<h2>Advisory Board </h2>";
 for(i=0;i<Advisory.length;i++){
-   all_team +=team_card(i,Advisory);
+   all_team +=team_card(i,Advisory,'Advisory');
 }
 document.getElementById('card_container').innerHTML=headies+all_team+line;
