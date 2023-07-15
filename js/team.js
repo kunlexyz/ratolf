@@ -403,6 +403,23 @@ He later moved to work with another ministry in Abuja 'Christ Word Healing and P
 Pastor Chris is happily married with a wife and wonderful children.
 </p>
 `;
+Pastor_ayooluwa=`
+<p>
+He is from Ekiti State, Emure local government and was born and brought up in Christ Apostolic Church and later became an Evangelist in the same ministry. 
+</p><p>
+He later proceeded to pastor in several ministries such as Christ Redeeming Evangelicals church in Ibadan. 
+</p><p>
+He's currently the Senior Pastor of Mount Zion prayer and deliverance ministry, here in Lagos. 
+</p><p>
+Hedidhis O levels at A.U.D Grammar School Owo and proceeded to obtain his NCE at YewaCollege of Education Ogun state. 
+</p><p>
+Ayooluwa Elisha is also an actor, script writer, quotescreator, who has produced some Christian movies.
+</p><p>
+He is also an activist who loves to fight against injustice and protect the rights of the citizens. 
+</p><p>
+He is married to Mrs.Ayooluwa Cecilia and blessed with glorious children and is currently residing in Lagos.
+</p>
+`;
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
@@ -415,7 +432,10 @@ var team =[
     ['','Adegeye Michael Oluyemi','Publicity Assistant (RATOLF)','compassion.jpg',Adegeye_michael],
     ['Pastor','Philemon Mafolabomi','Administrative Manager (RATOLF)','compassion.jpg',Pastor_philemon],
     ['Pastor','Christopher A Okolo','Vice C.O.O RATOLF Nigeria','Pastor_Crist_O.jpg',Christopher_a],
-    //['','','','',],
+    ['Pastor','Ayooluwa Elisha Dickson','Manager Publicity','Pastor_ayoola.jpg',Pastor_ayooluwa], 
+
+
+
 
     
     //['','','',],

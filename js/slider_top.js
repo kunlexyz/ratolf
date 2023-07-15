@@ -283,7 +283,7 @@ function kang(x,y){
     */
 }
 
-st = setTimeout(timeIt, 20000);
+st = setTimeout(timeIt, 10000);
 function rager(x){
     //alert('hello');
     tim=0;
