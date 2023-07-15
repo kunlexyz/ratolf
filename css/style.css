@@ -127,6 +127,18 @@ body{
     margin-right: 20px;
     background: #fff;
 }
+.pic_con_tab {
+    width: 30%;
+    text-align: center;
+    padding: 3px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-right: 10px;
+    background: #fff;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
 .pastor_pic_2{
     width: 100%;
     display: block;
@@ -166,7 +178,11 @@ body{
     display: inline-block;
 }
 .r img{width: 100%;}
-ul{display: block;}
+ul{
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
 li{
     display: inline-block;
     margin: 3px;
@@ -182,10 +198,11 @@ li:hover{
 .dd{
     position: absolute;
     background: #00f;
-    top: 70px;
+    top: 59px;
     transition: 2s;
     height: 0px;
     overflow: hidden;
+    z-index: 11;
 }
 .dd_menu{
     color: #e8f706;
@@ -295,6 +312,11 @@ li:hover{
     }
 }
 
+.card_con{text-align: center;}
+.card_reverse{
+    background-size: cover;
+    color:#fff;
+}
 /* for desktop_slider*/
 
 .sc{
