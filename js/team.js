@@ -420,6 +420,77 @@ He is also an activist who loves to fight against injustice and protect the righ
 He is married to Mrs.Ayooluwa Cecilia and blessed with glorious children and is currently residing in Lagos.
 </p>
 `;
+
+Pastor_Olugbuyi =`
+<p>
+Solomon Olusodo graduated from Ambrose Alli University (Ekpoma) Edo State with a degree in Business Administration.
+</p><p>
+
+Solomonhas over Twenty Fiveyears experience and oversees in office administration, facility management and health safety and environment at Gilgal Properties Limited Lagos.
+</p><p>
+
+Hehas pursued a steady carrier with strict compliance to professional ethics while also adding value.
+</p><p>
+
+Solomon Olusodo is an influential member of a highly motivated team providing qualitative and excellent services in a dynamic organization. He has worked in various organizations before joining Gilgal Properties Limited.
+</p><p>
+
+Highly efficient and administrative office professional with fifteen years of experience in management. Capable with excellent skills in delegating responsibilities to others and supervising and evaluating for effective task completion. Enthusiasm for delivering excellent service to clients.
+</p><p>
+
+Furthermore, Solomon Olusodo has a bachelor’s degree in Theology. Being an Assembly Pastor of various branches for more than 20 years under The Word Bible Church at 1, Ganiyu Muraino Close, Ajelogo, Mile 12, Lagos.  Presently Solomon Olosodois the Ogun State Zonal Pastor under The Word Bible Church.
+</p><p>
+He is married and blessed with many children
+</p>
+`;
+
+OSUNGBOHUN_OLAWALE=`
+<p>
+Osungbohun Olawale David is born to the family of Rev. Dr & Dr. mrs Osungbohun on a Monday evening, at Lagos island, Nigeria. His elementary education was cautiously garthered in Lagos State, Nigeria before he left for obafemi awolowo university ( OAU), Ile-ife, Nigeria, Where he is currently pursuing a degree in Dental and Dental Surgery. 
+</p><p>
+Although, raised in a Christian family, Osungbohun Olawale David in February 2013 genuinely encountered Christ and since became committed to the course of the cross and the propagation of the sweet Gospel of peace. His encouter with Christ furnished in him a personal understanding of God's power to outrightly save a man from sin and the reality of the transforming power of God's knowledge. This becomes his passion, his drive, aspiration and quest, to seeing all whom he comes in contact realise this,  youths and young adults alike.
+</p><p>
+
+Hence, Osungbohun Olawale David had been involved in numerous outreaches and in-reaches withing the local jurisdiction of Ondo and Ekiti state, as well as Ife and Modakeke environs (where he currently resides). 
+</p><p>
+He is currently the Coordinator of National association of Ondo and Ekiti state Christian students (NAOESCS OAU CHAPTER), and the Outreach Coordinator of The glory of God student fellowship (GLOGSFE), and had once been the Convert and Follow up Secretary of GLOGSFE (the fellowship he attends). He also, by means of his God given vision, disciples, coaches, and mentor other young christians to grow in faith and life relevance through the instrumentality of his experience, counselling, teaching and the seasoned sure word of God.
+</p><p>
+Osungbohun Olawale David had been a seasoned teacher with various secondary schools and tutorial centers. The subject of interest avidly includes; Biology, Chemistry and Physics. His teaching experience spans more than 10 years with schools like; Zenith Ideal secondary schools (presently a part time teacher), Success Impact Tutor (SIT), Pacesetters Tutor and private individuals to mention a few. with high success rate of wards in various scientific field of various higher institution.
+</p><p>
+
+Osungbohun Olawale David is also a developing  writer, graphic designer, video editor and still much in the  learning facet of several digital skills relevant to the course of self development and  mission. He also has great knowledge in the agricultural field, this steming from his experience in farming ( basically, cassava and tomatoes) and gari production, where he was the manager of an industrialized gari Factory, suited in the OAU community during the yea 2020 (Corona viruse period).
+</p><p>
+
+He is currently the secretary of RATOLF, a foundation laddened with mission via meeting the needs of the needy as well as reaching out to the marginalized with the Gospel of christ
+</p><p>
+
+His God's given Mandate is to Strengthen those in Distress, in Debt, and Discontented. Through Spiritual means, Medical means and other relevant aquired skills as it were.
+</p>
+`;
+
+Dr_ElbieMwenesongole=`
+<p>
+ElbieMwenesongole is a certified and international educator and teacher trainer. She specialized as educator in English, Geography, Curriculum development, Teacher Education, and Early Childhood education. 
+</p><p>
+
+Dr. Elbieas aneducator, has worked as secondary school educator for more than 30 years before she started working as a lecturer in the university until retirement. She has been active in the field of education for more than 50 years.
+</p><p>
+Dr. Elbieobtained her post-graduate degrees in Canada, United States, and South Africa, she is a retiredSenior Lecturer and at Northwest University (NWU) Mafikeng, South Africa.
+</p><p>
+
+Dr Elbie is dynamic woman of faith with a passion to help abandoned children in her community. She organised workshops, refresher courses and up-skilling, trained ECD teachers in her community to support the less privileged.
+</p><p>
+
+Dr. Elbie is an elder at Rhema New Life Church, Mafikeng. She has served in several ministries,such as Sunday School Teacher, Ushering, Cell Group Leader,Ladies Ministry Leader,& Church Advisory Board member. She has also been involved in Discipleship Training of new members, and Counselling Ministry. 
+</p><p>
+Her heartbeat is to make a difference in people’s lives, and connect them to Jesus Christ, our Lord and Saviour. She has been called into a Five -Fold Ministry.
+</p><p>
+
+ElbieMwenesongole holds Doctorate degree in Teacher Education (D.Ed) fromNorthwest University Mafikeng South Africa, a Master’s degree in Curriculum Development in Early Childhood Development (ECD) from Teachers College, Columbia University, New York City, USA, and  a Master’s degree in Adult Education from North-West University, Mafikeng, North-West Province, South Africa.
+</p><p>
+Dr ElbieMwenesongolehas been blessed with children and grandchildren.
+</p>
+`;
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
@@ -433,12 +504,13 @@ var team =[
     ['Pastor','Philemon Mafolabomi','Administrative Manager (RATOLF)','compassion.jpg',Pastor_philemon],
     ['Pastor','Christopher A Okolo','Vice C.O.O RATOLF Nigeria','Pastor_Crist_O.jpg',Christopher_a],
     ['Pastor','Ayooluwa Elisha Dickson','Manager Publicity','Pastor_ayoola.jpg',Pastor_ayooluwa], 
-
-
-
-
+    ['Pastor','Olugbuyi Solomon Olusodo','Vice President / Special Adviser (RATOLF)','Pastor_Gbuyi.png',Pastor_Olugbuyi],
+    ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],
+    ['Dr','Elbie Mwenesongole <div class="team_title">(D.Ed)</div>','Advisory Board (RATOLF)','Dr_Elbie.png',Dr_ElbieMwenesongole],     
     
-    //['','','',],
+   // ['','','','',],
+    
+    //['','','','',],
 ];
 var Advisory=[
     ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],

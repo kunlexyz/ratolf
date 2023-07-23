@@ -25,7 +25,9 @@ header=`
 </a>
                     <li>MEDIA</li>
                     <li>BLOG</li>
-                    <li>CONTACT</li>
+                    <a href="./contact.html">
+                        <li>CONTACT</li>
+                    </a>
             <li style="color: red;">DONATE</li>
                 </ul>
             </div>
@@ -56,7 +58,9 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </a>
             <li>MEDIA</li>
             <li>BLOG</li>
-            <li>CONTACT</li>
+            <a href="./contact.html">
+                <li>CONTACT</li>
+            </a>
             <li style="color: red;">DONATE</li>
         </ul>
     </div>
@@ -115,7 +119,9 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </a>
             <li>MEDIA</li>
             <li>BLOG</li>
-            <li>CONTACT</li>
+            <a href="./contact.html">
+                <li>CONTACT</li>
+            </a>
             <a href="./donation.html">
                 <li id="donate" >DONATE
                     <div id="donate_drop" class="dd">
