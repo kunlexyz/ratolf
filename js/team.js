@@ -470,25 +470,21 @@ His God's given Mandate is to Strengthen those in Distress, in Debt, and Discont
 
 Dr_ElbieMwenesongole=`
 <p>
-ElbieMwenesongole is a certified and international educator and teacher trainer. She specialized as educator in English, Geography, Curriculum development, Teacher Education, and Early Childhood education. 
+Elbie Mwenesongole is a certified and international educator and teacher trainer. She specialised as educator in English, Geography, Curriculum development, Teacher Education, and Early Childhood education.
 </p><p>
-
-Dr. Elbieas aneducator, has worked as secondary school educator for more than 30 years before she started working as a lecturer in the university until retirement. She has been active in the field of education for more than 50 years.
+Dr. Elbie worked as secondary school educator for more than 30 years before she started working as a lecturer in the university until retirement. She has been active in the field of education for more than 50 years.
 </p><p>
-Dr. Elbieobtained her post-graduate degrees in Canada, United States, and South Africa, she is a retiredSenior Lecturer and at Northwest University (NWU) Mafikeng, South Africa.
+Dr. Elbie obtained her post-graduate degrees in the United States, and South Africa, she is a retired Senior Lecturer and at Northwest University (NWU) Mafikeng, South Africa.
 </p><p>
-
 Dr Elbie is dynamic woman of faith with a passion to help abandoned children in her community. She organised workshops, refresher courses and up-skilling, trained ECD teachers in her community to support the less privileged.
 </p><p>
-
-Dr. Elbie is an elder at Rhema New Life Church, Mafikeng. She has served in several ministries,such as Sunday School Teacher, Ushering, Cell Group Leader,Ladies Ministry Leader,& Church Advisory Board member. She has also been involved in Discipleship Training of new members, and Counselling Ministry. 
+Dr. Elbie is an elder at Rhema New Life Church, Mafikeng. She has served in several ministries,such as Sunday School Teacher, Ushering, Cell Group Leader,Ladies Ministry Leader, and Church Advisory Board member. She has also been involved in Discipleship Training of new members, and Counselling Ministry.
 </p><p>
-Her heartbeat is to make a difference in people’s lives, and connect them to Jesus Christ, our Lord and Saviour. She has been called into a Five -Fold Ministry.
+Her heartbeat is to make a difference in people’s lives, and connect them to Jesus Christ, our Lord and Saviour. She has been called into a Five-Fold Ministry.
 </p><p>
-
-ElbieMwenesongole holds Doctorate degree in Teacher Education (D.Ed) fromNorthwest University Mafikeng South Africa, a Master’s degree in Curriculum Development in Early Childhood Development (ECD) from Teachers College, Columbia University, New York City, USA, and  a Master’s degree in Adult Education from North-West University, Mafikeng, North-West Province, South Africa.
+Elbie Mwenesongole holds a Doctorate degree in Teacher Education (D.Ed) fromNorthwest University Mafikeng South Africa, a Master’s degree in Curriculum Development in Early Childhood Development (ECD) from Teachers College, Columbia University, New York City, USA, and a Master’s degree in Adult Education from North-West University, Mafikeng, North-West Province, South Africa. She has a Bachelor’s degree, Urban and Economic Geography from City University of New York.
 </p><p>
-Dr ElbieMwenesongolehas been blessed with children and grandchildren.
+Dr Elbie Mwenesongoleis blessed with children and grandchildren.
 </p>
 `;
 var team =[
@@ -505,8 +501,7 @@ var team =[
     ['Pastor','Christopher A Okolo','Vice C.O.O RATOLF Nigeria','Pastor_Crist_O.jpg',Christopher_a],
     ['Pastor','Ayooluwa Elisha Dickson','Manager Publicity','Pastor_ayoola.jpg',Pastor_ayooluwa], 
     ['Pastor','Olugbuyi Solomon Olusodo','Vice President / Special Adviser (RATOLF)','Pastor_Gbuyi.png',Pastor_Olugbuyi],
-    ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],
-    ['Dr','Elbie Mwenesongole <div class="team_title">(D.Ed)</div>','Advisory Board (RATOLF)','Dr_Elbie.png',Dr_ElbieMwenesongole],     
+    ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],     
     
    // ['','','','',],
     
@@ -518,7 +513,8 @@ var Advisory=[
     ['Dr.','Osungbohun Jacob Jesusrich','Advisory Board (RATOLF)','Dr. Osungbohun Jacob Jesusrich.png',Dr_osungbohun], 
     
     ['','Michael Olatunji ONI','Advisory Board (RATOLF)','Michael Olatunji ONI.png',Michael_olatunji],
-
+    ['Dr','Elbie Mwenesongole <div class="team_title">(D.Ed)</div>','Advisory Board (RATOLF)','Dr_Elbie.png',Dr_ElbieMwenesongole],
+    
 ];
 
 //function team_card(a,b,c,d,e)
