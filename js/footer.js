@@ -34,11 +34,25 @@ font-family: the_font;">
         <div class="column">
             <h3>Media</h3>
 
-            <img class="icon" src="./image/icon_play.png">  Youtube <br> 
-            <img class="icon" src="./image/iconFacebook.png">  Facebook <br> 
-            <img class="icon" src="./image/iconInstagram.png"> Instagram <br> 
-            <img class="icon" src="./image/iconTwitter.png"> Twitter <br> 
+            <a href="https://youtube.com/@riverandtreeoflifefoundation">
+                <img class="icon" src="./image/icon_play.png">  Youtube
+            </a>
+                 <br> 
+            <a href="https://www.facebook.com/riverandtreeoflife">
+                <img class="icon" src="./image/iconFacebook.png">  Facebook
+            </a>
+                 <br> 
+            <a href="">
+            <img class="icon" src="./image/iconInstagram.png"> Instagram
+            </a>
+                 <br> 
+            <a href="https://twitter.com/RiverAndTreeOf1"> 
+            <img class="icon" src="./image/iconTwitter.png"> Twitter
+            </a>
+                 <br> 
+            <a href="https://instagram.com/ratolf.org"> 
             <img class="icon" src="./image/icon_wh.png"> +1(701)7703188
+            </a>
             
         </div>
     </div>
@@ -67,9 +81,9 @@ font-family: the_font;">
         <div class="column2" style="margin-top: -30px;padding-top:0px">
             <h3>Our Team</h3>
             <div class="bull"></div>Pastor Remmy-green Peter <br> 
-            <div class="bull"></div>mrs mwaka peter <br> 
+            <div class="bull"></div>Mrs Mwaka Peter <br> 
             <div class="bull"></div>Pastor Bunmi <br> 
-            <div class="bull"></div>samuel peter
+            <div class="bull"></div>Samuel Peter
             
         </div>
     </div>
