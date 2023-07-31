@@ -15,3 +15,26 @@
     font-size: 20px;
     text-align: justify;
 }
+#table_donation td{
+    padding:5px;
+    font-size: 25px;
+}
+#table_donation tr{}
+
+#table_div input{
+    width: 25px;
+    height: 25px;
+    vertical-align: sub;
+}
+.diva{
+    font-size: 20px;
+    margin: 10px 0px;
+    border-bottom: solid 2px #2c02a5;
+}
+.diva input[type=text]{
+    float: right;
+    font-size: 20px;
+}
+.form{
+    max-width: 435px;
+}

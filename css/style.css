@@ -270,6 +270,12 @@ li:hover{
     vertical-align: middle;
 }
 
+a, a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 @media only screen and (min-width: 951px){
     .mobile, #myNav, .overlay2, .tab, .mobile_tab {display: none;}
 }
