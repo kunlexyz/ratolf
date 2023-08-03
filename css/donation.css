@@ -38,3 +38,21 @@
 .form{
     max-width: 435px;
 }
+.diva2{
+    margin: 5px 0;
+}
+.diva3, .diva3x{
+    font-size: 20px;
+    border: solid 1px #888;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px 0;
+}
+.diva3x{
+    border: none;
+    width: 75px;
+    font-size: 14px;
+}
+.diva_color{
+    border: solid #aaa 1px;
+}
