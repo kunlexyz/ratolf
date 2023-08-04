@@ -183,13 +183,13 @@ ul{
     margin-top: 7px;
     margin-bottom: 0;
 }
-li{
+#head_man li{
     display: inline-block;
     margin: 3px;
     color: white;
     padding: 10px;
 }
-li:hover{
+#head_man li:hover{
     border-top: solid 4px white;
     cursor: pointer;
     background: #00f;
@@ -373,4 +373,8 @@ transform: rotate(-37.5deg) skew(10deg);
 	-webkit-box-reflect: below 10px linear-gradient(rgba(255,255,255, 0.1),rgba(255,255,255, 0.1),rgba(255,255,255, 0.3));
 	max-width:420px;
 	max-height: 280px;
+}
+
+.book_first{
+    height: 320px;
 }
