@@ -378,3 +378,16 @@ transform: rotate(-37.5deg) skew(10deg);
 .book_first{
     height: 320px;
 }
+.half_div{
+    width:48%;
+    display: inline-block;
+    vertical-align: top;
+}
+.footer_heading{
+    font-size: 45px;
+    color: #e8f706;
+    margin-bottom: 25px;
+}
+.fooot .half_div, #ratolf_footer  .half_div{
+    margin: 50px auto 0;
+}

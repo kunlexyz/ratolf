@@ -1,21 +1,22 @@
 var footer = `
 <footer class="desktop_and_tab" style="background:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(image/tree-736885.jpg);
     background-size: 100% 100%;
- width: 100%; margin: auto; text-align: center;
+ width: 100%; margin: auto;  text-align: center;color:#fff;
 font-family: the_font;">
-    <div class="row ce">
-        <div class="column">
-            <h3>About RATOLF</h3>            
-            
-            <div class="bull"></div>About Us<br> 
+
+    <div style="width: 80%;margin:auto;padding:50px 0;text-align: left;line-height: 150%;font-size: 22px;">
+        <div class="half_div">
+            <div class="footer_heading">About RATOLF</div>            
+            <a href="./about.html" >
+            <div class="bull"></div>About Us
+            </a> <br>
             <div class="bull"></div>Our Location <br> 
             <div class="bull"></div>Our Works <br> 
             <div class="bull"></div>Our Mission <br>  
             <div class="bull"></div> Our Team
-
-        </div>
-        <div class="column">
-            <h3>Events</h3>
+    </div>
+        <div class="half_div">
+            <div class="footer_heading">Events</div>
             
             <div class="bull"></div>Nigeria <br> 
             <div class="bull"></div>South Africa <br> 
@@ -23,16 +24,16 @@ font-family: the_font;">
             <div class="bull"></div>Media
             
         </div>
-        <div class="column">
-            <h3>Get Involved</h3>
+        <div class="half_div">
+            <div class="footer_heading">Get Involved</div>
 
             <div class="bull"></div>Give <br> 
             <div class="bull"></div>Join <br> 
             <div class="bull"></div>Contact us
             
         </div>
-        <div class="column">
-            <h3>Media</h3>
+        <div class="half_div">
+            <div class="footer_heading">Media</div>
 
             <a href="https://youtube.com/@riverandtreeoflifefoundation">
                 <img class="icon" src="./image/icon_play.png">  Youtube
@@ -51,12 +52,13 @@ font-family: the_font;">
             </a>
                  <br> 
             <a href="https://instagram.com/ratolf.org"> 
-            <img class="icon" src="./image/icon_wh.png"> +1(701)7703188
+            <img class="icon" src="./image/icon_wh.png"> +2348055441551
             </a>
             
         </div>
     </div>
-    <div class="ff ce" style="background: orangered;color:#fff;padding: 20px;">
+
+    <div class="ff ce" style="background: orangered;color:#fff;padding: 30px;">
         ©ratolf. 2023 
     </div>
 </footer>
