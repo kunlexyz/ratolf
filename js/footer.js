@@ -1,5 +1,6 @@
 var footer = `
-<footer class="desktop_and_tab" style="background:linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(image/tree-736885.jpg);
+<footer class="desktop_and_tab" style="background:#0d1630;
+background-image:url(image/navy_blue.jpg);
     background-size: 100% 100%;
  width: 100%; margin: auto;  text-align: center;color:#fff;
 font-family: the_font;">
