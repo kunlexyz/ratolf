@@ -1,0 +1,22 @@
+* {
+    font-family: myFont;
+}
+@font-face {
+    font-family: myFont;
+    src: url(./tt0142m_.ttf);
+}
+.parent {
+    display: inline-block;
+    margin: 5px;
+}
+.menu {
+    background-color: #bbb;
+    height: 5px;
+    width: 25px;
+    margin: 4px;
+}
+
+/*
+NEW SENIOR SCHOOL BIOLOGY PRACTICAL ACTIVITY/WORKBOOK 1,2 AND 3
+(Okechukwu C.O) : A complete practical activity guide for Senior secondary student's practical Biology course with well illustrated diagrams and past SSCE questions. The books have digital App which is designed to enhance student interest and performance in biology.
+*/
