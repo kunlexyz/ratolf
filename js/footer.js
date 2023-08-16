@@ -44,7 +44,7 @@ font-family: the_font;">
                 <img class="icon" src="./image/iconFacebook.png">  Facebook
             </a>
                  <br> 
-            <a href="">
+            <a href="https://instagram.com/rivertreeoflifeministries?igshid=OGQ5ZDc2ODk2ZA==">
             <img class="icon" src="./image/iconInstagram.png"> Instagram
             </a>
                  <br> 
@@ -52,7 +52,7 @@ font-family: the_font;">
             <img class="icon" src="./image/iconTwitter.png"> Twitter
             </a>
                  <br> 
-            <a href="https://instagram.com/ratolf.org"> 
+            <a href="#"> 
             <img class="icon" src="./image/icon_wh.png"> +2348055441551
             </a>
             
