@@ -23,7 +23,10 @@ header=`
                     <a href="./get_involve.html">
 	<li>GET INVOLVE</li>
 </a>
+            
+<a href="./media.html">
                     <li>MEDIA</li>
+                    </a>
 
                     <a href="https://ratolm.blogspot.com/">
                     <li>BLOG</li>
@@ -60,7 +63,10 @@ padding:7px 25px;background-size: cover; background-position: center; background
             <a href="./get_involve.html">
 	<li>GET INVOLVE</li>
 </a>
+            
+<a href="./media.html">
             <li>MEDIA</li>
+            </a>
 
             <a href="https://ratolm.blogspot.com/">
             <li>BLOG</li>
@@ -125,7 +131,10 @@ padding:7px 25px;background-size: cover; background-position: center; background
         </div>
     </li>
 </a>
+            
+<a href="./media.html">
             <li>MEDIA</li>
+            </a>
             
             <a href="https://ratolm.blogspot.com/">
             <li>BLOG</li>
