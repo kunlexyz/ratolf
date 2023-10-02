@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kunle s Videos</title>
+    <link rel="stylesheet" href="css/profile2.css" />
+    <style>
+    </style>
+</head>
+<body>
+    
+<div id="graphics" style="background: url('./kunle P/bg_designs.png');">
+    <div style="background: #000;
+    box-sizing: border-box;height: 350px;text-align: center;background: linear-gradient(90deg, #48003e, black)">
+        <img src="./kunle P/video.png" style="height: 350px;" />
+    </div>
+<div class="mind_big about_story" style="position:relative; box-sizing: border-box;
+background: #fff;
+background:url('./kunle P/bg_colorful2.jpg');
+box-shadow: 5px 5px 5px #aaa,-5px -5px 5px #aaa;   ">
+    <div id="video_con" class="major_con" >
+        <div style="
+            width: 33%;
+            height: 185px;
+            float: left;
+            background: #fff;
+            text-align: center;
+            box-shadow: 2px 0px 8px rgb(241, 11, 195);
+            margin-right: 25px;
+        ">
+            <img src="./kunle P/play.png" style="
+                margin-top: 60px;
+            " />
+        </div>
+        <div style="display: inline-block;width:63%;">
+        <div class="heading_topic" style="
+            font-size: 20px;
+            background: #333;
+            color:#ff0;
+        border-left: solid 6px rgb(241, 11, 195);
+            font-weight: 700;">
+            JavaScript: App for Cooperative Society
+        </div>
+        <p style="background: rgba(255,255,255,0.5);padding: 25px;">
+            <span class="drop_cap">I</span>n this video, I explain how I use javascript to achieve interactive user interface which document and communicates records from database. Actually, this app was made using different languages but in this video, my explanation focus on mainly javascript.
+
+-------
+<!--
+I am a skilled graphic artist and programmer with a passion for blending creativity and technology. With a strong background in both visual design and coding, I bring innovative ideas to life through captivating visuals and interactive user experiences. I pay meticulous attention to detail, versatility in handling various design software and programming languages, and my ability to work seamlessly across different platforms.
+-----
+
+Cooperative societies like everyone knows take contributions and lend money to members, the organization keep records of these by maintaining her own in-house account and issue out printed card which contain record of the holder's payments, performances and contributions. 
+
+The App does all the operation faster in a more organized method as it display relative information to the public and even allows the stakeholders to create, read, update and delete(CRUD) based on who they are (User Authentication). This App was made with different languages. And there are videos which focus on the explanation of specific languages.
+
+
+
+Simplified Scripting, Cross-Browser Compatibility, Rich User Interfaces, AJAX requests, or DOM manipulation,
+-->
+        </p>
+        </div>
+    <div class="video_con">
+        <div style="
+            width: 33%;
+            height: 185px;
+            float: left;
+            background: #fff;
+            text-align: center;
+            box-shadow: 2px 0px 8px rgb(241, 11, 195);
+            margin-right: 25px;
+        ">
+            <img src="./kunle P/play.png" style="
+                margin-top: 60px;
+            " />
+        </div>
+        <div style="display: inline-block;width:63%;">
+        <div class="heading_topic" style="
+            font-size: 20px;
+            background: #ff0;
+        border-left: solid 6px rgb(241, 11, 195);
+            font-weight: 700;">
+            PHP in the App for Cooperative Society
+        </div>
+        <p style="background: rgba(255,255,255,0.5);padding: 25px;">
+            <span class="drop_cap">P</span>            
+            HP, the champion of the web on server-side, as it is widely known for its dynamic content generation capability. In this video, I explain how I used PHP script to perform CRUD. That is to recieve information on the server side, do some calculations, store and output relative desire or informational results. You can click here to visit and exprience the app.
+        </p>
+        </div>
+    </div>
+        
+    </div>
+</div>
+For my other videos that are not on this page, please click <a href="youtube.com/@hangoutartist">here to visit my youtube channel </a>
+</div>
+
+<div id="kunles_video_page" class="viideo_class"
+    style="
+        position: fixed;
+        top:0px;
+        width: 100vw;
+        height: 100vh;
+        background: #fff;
+        background: url('./kunle P/bg_colorful.png');
+    "
+>
+
+    <div 
+    style="background: #f00;color: #fff;padding: 10px;display: inline-block;">
+         &lAarr;Back
+    </div>
+    <div class="each_video">
+      <div style="background: #f00;color:#fff;
+      float:right;padding: 10px;font-size: 20px;
+      
+      "> 
+        &times; 
+      </div>
+      <div class="video_title">JavaScript: App for Cooperative Society</div>
+
+<!-- https://www.youtube.com/embed/ftXodKW18tM -->
+<iframe width="900" height="450" src="">
+
+</iframe>
+
+    </div>
+</div>
+
+</body>
+<script src="js/jq.js"></script>
+<script src="js/kunle_script.js"></script>
+<script type="text/javascript">
+    var lnko = location.hash;
+    if(location.hash == 'javascript'){
+        show_tab('javascript');
+        //how to scroll to an element using jQuery
+    }
+function navi(x){
+    if(location.hash == x && document.getElementById(x)){
+        $('#'+x).css({'display':'block'});
+        $(document).ready(function(){
+            $('#'+x)[0].scrollIntoView(true);
+        });
+    }
+}
+    if(document.getElementById('graphics2')){
+        console.log('yes');
+    }else{
+        console.log('no');
+    }
+</script>
+</html>

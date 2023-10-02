@@ -97,21 +97,41 @@ padding:7px 25px;background-size: cover; background-position: center; background
         </div>-->
     </li>
 </a>
-            <a href="./about.html">
-    <li id="about">ABOUT
+            
+    <li id="about">
+        <a href="./about_full.html"> ABOUT </a>
         <div id="about_drop" class="dd">
-            <div class="dd_menu">- Our Motto</div>
-            <div class="dd_menu">- About Us</div>
-            <div class="dd_menu">- Our Purpose</div>
-            <div class="dd_menu">- Our Mission</div>
-            <div class="dd_menu">- Our Vision</div>
-            <div class="dd_menu">- Our Support Areas</div>
-            <div class="dd_menu">- Our Commitments</div>
-            <div class="dd_menu">- Our Statement of Faith</div>
-            <div class="dd_menu">- The Spiritual Unity</div>
+            <a href="./about.html#motto">
+                <div class="dd_menu">- Our Motto</div>
+            </a>
+            <a href="./about.html#about_us">
+                <div class="dd_menu">- About Us</div>
+            </a>
+            <a href="./about.html#purpose">
+                <div class="dd_menu">- Our Purpose</div>
+            </a>
+            <!--
+            <a href="./about.html#">
+                <div class="dd_menu">- Our Mission</div>
+            </a>
+                <div class="dd_menu">- Our Vision</div>
+            -->
+            <a href="./about.html#support">
+                <div class="dd_menu">- Our Support Areas</div>
+            </a>
+            <a href="./about.html#commitment">
+                <div class="dd_menu">- Our Commitments</div>
+            </a>
+            <a href="./about.html#statement">
+                <div class="dd_menu">- Our Statement of Faith</div>
+            </a>
+            <a href="./about.html#spiritual">
+                <div class="dd_menu">- The Spiritual Unity</div>
+            </a>
+
         </div>
     </li>
-</a>
+
             <a href="./team.html">
 <li id="team" >TEAM
     <div id="team_drop" class="dd">
@@ -120,14 +140,26 @@ padding:7px 25px;background-size: cover; background-position: center; background
     </div>
 </li>
             </a>
+	<li id="get">
             <a href="./get_involve.html">
-	<li id="get">GET INVOLVE
+            GET INVOLVE
+            </a>
         <div id="get_drop" class="dd">
+        <a href="./get_involve.html#compassion">
             <div class="dd_menu">- Compassion</div>
+            </a>
+            <a href="./get_involve.html#community">
             <div class="dd_menu">- Community Empowerment</div>
+            </a>
+            <a href="./get_involve.html#transforming">
             <div class="dd_menu">- Transforming communities</div>
+            </a>
+            <a href="./get_involve.html#youth">
             <div class="dd_menu">- Youth Empowerment</div>
+            </a>
+            <!--
             <div class="dd_menu">- Mission</div>
+            -->
         </div>
     </li>
 </a>

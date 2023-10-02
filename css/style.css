@@ -214,7 +214,7 @@ ul{
     height: 166px;
 }
 #about:hover #about_drop{
-    height: 371px;
+    height: 290px;
 }
 #team:hover #team_drop{
     height: 85px;
@@ -390,4 +390,17 @@ transform: rotate(-37.5deg) skew(10deg);
 }
 .fooot .half_div, #ratolf_footer  .half_div{
     margin: 50px auto 0;
+}
+.segment{
+    display: none;
+}
+.segment_inner{
+    position:relative; box-sizing: border-box;
+    background: #fff;
+    box-shadow: 5px 5px 5px #aaa,-5px -5px 5px #aaa;
+}
+.segment_banner{
+    overflow:hidden;
+        height:350px;
+    text-align: center;
 }
