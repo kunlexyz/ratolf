@@ -493,7 +493,7 @@ var team =[
     ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF Nigeria.','Bunmi Johnson.png',Bunmi_johnson],
     ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
  
-    ['Dr.','Funmi Andrew:','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
+    ['Dr.','Funmi Andrew: <div class="team_title">Dr.</div>','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
     
     ['Ms.','Ephrathah Arah James','Director Network Relations','Sister_arah.png',Sis_arah],
     ['','Adegeye Michael Oluyemi','Publicity Assistant (RATOLF)','compassion.jpg',Adegeye_michael],
@@ -508,12 +508,12 @@ var team =[
     //['','','','',],
 ];
 var Advisory=[
-    ['','Adebayo Okeowo, <div class="team_title">(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
+    ['','Adebayo Okeowo, <div class="team_title">Dr. <br>(Ph.D)</div>','Advisory Board (RATOLF)','Adebayo Okeowo.jpeg',Adebayo_okeowo],
     
-    ['Dr.','Osungbohun Jacob Jesusrich','Advisory Board (RATOLF)','Dr. Osungbohun Jacob Jesusrich.png',Dr_osungbohun], 
+    ['Dr.','Osungbohun Jacob Jesusrich <div class="team_title">Dr.</div>','Advisory Board (RATOLF)','Dr. Osungbohun Jacob Jesusrich.png',Dr_osungbohun], 
     
-    ['','Michael Olatunji ONI','Advisory Board (RATOLF)','Michael Olatunji ONI.png',Michael_olatunji],
-    ['Dr','Elbie Mwenesongole <div class="team_title">(D.Ed)</div>','Advisory Board (RATOLF)','Dr_Elbie.png',Dr_ElbieMwenesongole],
+    ['Dr.','Michael Olatunji ONI <div class="team_title">Dr.</div>','Advisory Board (RATOLF)','Michael Olatunji ONI.png',Michael_olatunji],
+    ['Dr','Elbie Mwenesongole <div class="team_title">Dr. <br>(D.Ed)</div>','Advisory Board (RATOLF)','Dr_Elbie.png',Dr_ElbieMwenesongole],
     
 ];
 
@@ -527,9 +527,8 @@ function team_card(a,arr,aa){
             <img class="team_pi" src="./image/${content[3]}" alt="">
         </div>
         <div class="team_profile">
-            <div class="team_title">`+content[0]+`</div>
-            <div class="team_name">`+content[1]+`
-                </div>
+            <div class="team_name">`+content[1]+`</div>
+            
             <div class="team_title_2">`+content[2]+`</div>
         </div>
 
