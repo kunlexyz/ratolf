@@ -99,7 +99,7 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </a>
             
     <li id="about">
-        <a href="./about_full.html"> ABOUT </a>
+        <a href="./about.html#about_us"> ABOUT </a>
         <div id="about_drop" class="dd">
             <a href="./about.html#motto">
                 <div class="dd_menu">- Our Motto</div>
@@ -121,12 +121,6 @@ padding:7px 25px;background-size: cover; background-position: center; background
             </a>
             <a href="./about.html#commitment">
                 <div class="dd_menu">- Our Commitments</div>
-            </a>
-            <a href="./about.html#statement">
-                <div class="dd_menu">- Our Statement of Faith</div>
-            </a>
-            <a href="./about.html#spiritual">
-                <div class="dd_menu">- The Spiritual Unity</div>
             </a>
 
         </div>
