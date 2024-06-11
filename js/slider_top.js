@@ -58,12 +58,12 @@ $(this).css({"transform":"rotate("+n+"deg)"});
 }}
 );
 
-moveIt(
-'xli_item_1x',
-{top:'130px',left:'-300px',opacity:0.1},
-{left:'500px'},
-{left:'850px',opacity:0.99}
-);
+// moveIt(
+// 'xli_item_1x',
+// {top:'130px',left:'-300px',opacity:0.1},
+// {left:'500px'},
+// {left:'850px',opacity:0.99}
+// );
 
 }
 

@@ -39,7 +39,7 @@ body{
 .about_img, .about_img_2{
     float:right;
     width: 335px;
-    margin: 20px;
+    margin: 4px 20px;
     margin-right: 0px;
     margin-bottom: 0px;
 }

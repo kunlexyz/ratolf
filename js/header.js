@@ -101,9 +101,6 @@ padding:7px 25px;background-size: cover; background-position: center; background
     <li id="about">
         <a href="./about.html#about_us"> ABOUT </a>
         <div id="about_drop" class="dd">
-            <a href="./about.html#motto">
-                <div class="dd_menu">- Our Motto</div>
-            </a>
             <a href="./about.html#about_us">
                 <div class="dd_menu">- About Us</div>
             </a>
