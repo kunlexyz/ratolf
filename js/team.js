@@ -487,9 +487,35 @@ Elbie Mwenesongole holds a Doctorate degree in Teacher Education (D.Ed) fromNort
 Dr Elbie Mwenesongoleis blessed with children and grandchildren.
 </p>
 `;
+OMOLOLA_AKINBOYE =`
+<p>
+Akinboye Omolola Opeyemi is a passionate educator who has taken teaching as a lifelong career. She is quite committed to helping teachers in Nigeria and Africa to thrive in their teaching practice to help every child they come across become a better version of themselves. She is as well an education Revolutionist who seeks to making sure that the 21st century teaching and learning methodologies are practically indicated in every school in Nigeria. 
+</p><p>
+
+However, her trainings in Montessori and the IB (International Baccalaureate) PYP, to include her teaching experience at an international school in Ibadan accorded her the appropriate understanding as to how the education system in her country can get better. 
+</p><p>
+
+Akinboye Omolola could not have come up with L'orlà Pedagogical Foundation without her person educational experience in her home country, where her learning needs were not met, consequently making her a backwards learner. She grew up being a dullard in her class. The stigma infact made her a loner and introvert until she had encounter with a teacher that was able to meet her learning needs in her middle school (year 10). Conclusively, her personal and professional experiences in connection with the commonest order of the day in schools around her triggered the movement which is ongoing and of course persistent. 
+</p><p>
+
+At L'orlà Pedagogical Foundation, we are committed to bridging the gap between the future and now right in the classroom. Our primary goal is to help every child become a critical thinker who can come up with solutions to local and global issues in the future. This can only be achieved if the teachers in the classroom are well braised up to bringing out the lifelong learning qualities (communication, critical thinking, risk takers, balanced, open-mindedness, inquiry, amongst others) in their learners.
+
+</p>
+`;
+Marina_Ruth=`
+<p>
+Marina Ruth Mouloungui is a highly experienced Analytical Chemist with many years of expertise in laboratory analysis and research. Marina Mouloungui is a certified cementing chemist.  
+</p><p>
+
+She worked with Halliburton Gabon as a lab technician, responsible of the lab for 4 years. After working with Halliburton Gabon for many years, she moved on to another job opportunity with Perenco Oil & Gas Gabon of which she oversaw their cementing lab and using her expertise to sell her services to the company. Based on her experience and expertise, she helped the company to set up the Laboratory and make it work. Presently Marina works at Schlumberger Gabon S.A as a lab technician. 
+</p><p>
+Marina is a good leader, a passionate woman who loves to be a good leader to her generation. She is a minister of the Gospel and businesswoman. She is the last born of a family of 5 and she grew up in a very modest family. As a student, the fear of deceivingher parents made her to be a hard worker, and a brilliant student.After her matric, Marina went to pursueher studies in South Africa, Pretoria, where she gave her life to Jesus.Since then, she has never stopped serving the Lord, and now back in Gabon, she oversees the youth department of the church she is currently a member of. Marina is married to an awesome man, and they serve the Lord together.
+</p>
+`;
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
-    ['Minister','Mwaka Peter.','Co-Founder & CEO( RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
+    ['Minister','Mwaka Peter.','Co-Founder & CEO(RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
+    ['','Akinboye Omolola Opeyemi','Vice CEO(RATOLF)','OMOLOLA  AKINBOYE.jpg',OMOLOLA_AKINBOYE],
     ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF Nigeria.','Bunmi Johnson.png',Bunmi_johnson],
     ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
  
@@ -501,7 +527,8 @@ var team =[
     ['Pastor','Christopher A Okolo','Vice C.O.O RATOLF Nigeria','Pastor_Crist_O.jpg',Christopher_a],
     ['Pastor','Ayooluwa Elisha Dickson','Manager Publicity','Pastor_ayoola.jpg',Pastor_ayooluwa], 
     ['Pastor','Olugbuyi Solomon Olusodo','Vice President / Special Adviser (RATOLF)','Pastor_Gbuyi.png',Pastor_Olugbuyi],
-    ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],     
+    ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],
+    ['','Marina Ruth Mouloungui','','Marina Ruth.jpg',Marina_Ruth],
     
    // ['','','','',],
     
