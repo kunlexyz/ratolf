@@ -528,7 +528,7 @@ var team =[
     ['Pastor','Ayooluwa Elisha Dickson','Manager Publicity','Pastor_ayoola.jpg',Pastor_ayooluwa], 
     ['Pastor','Olugbuyi Solomon Olusodo','Vice President / Special Adviser (RATOLF)','Pastor_Gbuyi.png',Pastor_Olugbuyi],
     ['','Osungbohun Olawale David','General Secretary (RATOLF)','Wale_Oshungbohun.png',OSUNGBOHUN_OLAWALE],
-    ['','Marina Ruth Mouloungui','','Marina Ruth.jpg',Marina_Ruth],
+    ['','Marina Ruth Mouloungui','RATOLF DIRECTOR,<br> Gabon','Marina Ruth.jpg',Marina_Ruth],
     
    // ['','','','',],
     

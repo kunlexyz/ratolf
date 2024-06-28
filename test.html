@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container01{
+            padding: 60px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            background: #4279ba;
+        }
+        .fl2{
+            display: flex;
+            justify-content: center;
+        }
+        .circle-icon {
+            border-radius: 50%;
+            padding: 10px;
+            margin: 5px;
+            background-color: #fff;
+            width: 45px;
+            height: 45px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .circle-icon:hover{
+            background-color: red;
+        }
+        
+@media only screen and (min-width: 951px){
+    .circle-icon{
+        padding: 20px;
+        width: 62px;
+        height: 64px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="flex-container01" style="  ">
+        <h3 style="color: #fff;text-align: center;font-size: 30px;">Follow Us</h3>
+        <div class="fl2">
+            <a href="https://www.facebook.com/riverandtreeoflife">
+                <div class="circle-icon">
+                    <img src="./image/icon-facebook.png" />
+                </div>
+            </a>
+            <a href="https://twitter.com/RiverAndTreeOf1">
+                <div class="circle-icon">
+                    <img src="./image/icon-twitter.png" />
+                </div>
+            </a>
+            <a href="https://youtube.com/@riverandtreeoflifefoundation">
+                <div class="circle-icon">
+                    <img src="./image/icon-youtube.png" />
+                </div>
+            </a>
+            <a href="https://instagram.com/rivertreeoflifeministries?igshid=OGQ5ZDc2ODk2ZA==">
+                <div class="circle-icon">
+                    <img src="./image/icon-instagram.png" />
+                </div>
+            </a>
+            <a href="#">
+                <div class="circle-icon">
+                    <img src="./image/icon-periscope.png" />
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
