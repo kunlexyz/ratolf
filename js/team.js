@@ -515,9 +515,9 @@ Marina is a good leader, a passionate woman who loves to be a good leader to her
 var team =[
     ['Pastor','Remmy-Greenpasture Adekunle Peter.','(President & Founder of RATOLF)','Pastor_remmy.png',Pastor_remmy],
     ['Minister','Mwaka Peter.','Co-Founder & CEO(RATOLF)','Minister Mwaka Peter.png',Mwaka_peter],
-    ['','Akinboye Omolola Opeyemi','Vice CEO(RATOLF)','OMOLOLA  AKINBOYE.jpg',OMOLOLA_AKINBOYE],
     ['Pastor','Bunmi Johnson','Vice President / C.O.O RATOLF Nigeria.','Bunmi Johnson.png',Bunmi_johnson],
     ['Pastor','Adekunle Joseph Ayannuga','Vice President (RATOLF)','Pastor Adekunle Joseph Ayannuga.png',Pastor_adekunle_j],
+    ['','Akinboye Omolola Opeyemi','Vice CEO(RATOLF)','OMOLOLA  AKINBOYE.jpg',OMOLOLA_AKINBOYE],
  
     ['Dr.','Funmi Andrew: <div class="team_title">Dr.</div>','Associate Director of Programs(RATOLF)','Dr_funmi.png',Dr_funmi],
     
