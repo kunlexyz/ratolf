@@ -287,6 +287,7 @@ a, a:visited{
     flex-direction: column;
     justify-content: center;
     background: #4279ba;
+    height: 350px;
 }
 .fl2{
     display: flex;
@@ -386,7 +387,7 @@ transform: rotate(-37.5deg) skew(10deg);
 
 .slider_punk{
 	width:100vw;
-	height: 512px;
+	height: 650px;
 	position: absolute;
 }
 .hid{display: none;}
