@@ -281,7 +281,6 @@ a, a:visited{
 }
 
 .flex-container01{
-    padding: 60px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
