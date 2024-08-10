@@ -27,10 +27,6 @@ header=`
 <a href="./media.html">
                     <li>MEDIA</li>
                     </a>
-
-                    <a href="https://ratolm.blogspot.com/">
-                    <li>BLOG</li>
-                    </a>
                     
                     <a href="./contact.html">
                         <li>CONTACT</li>
@@ -66,10 +62,6 @@ padding:7px 25px;background-size: cover; background-position: center; background
             
 <a href="./media.html">
             <li>MEDIA</li>
-            </a>
-
-            <a href="https://ratolm.blogspot.com/">
-            <li>BLOG</li>
             </a>
 
             <a href="./contact.html">
@@ -157,10 +149,6 @@ padding:7px 25px;background-size: cover; background-position: center; background
             
 <a href="./media.html">
             <li>MEDIA</li>
-            </a>
-            
-            <a href="https://ratolm.blogspot.com/">
-            <li>BLOG</li>
             </a>
             
             <a href="./contact.html">
