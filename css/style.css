@@ -455,3 +455,10 @@ transform: rotate(-37.5deg) skew(10deg);
 .boxAdsC {
     width: 400%;
 }
+
+.side_picture{
+    width: 450px;
+}
+.para_con p{
+    padding:0 40px;
+}

@@ -51,8 +51,12 @@ padding:7px 25px;background-size: cover; background-position: center; background
 </a>
 </a>
             <a href="./about.html">
-<li>ABOUT</li>
-</a>
+                <li>ABOUT</li>
+            </a>
+
+            <a href="./ABOUT.html">
+                <li>PROJECT</li>
+            </a>
             
 <li >TEAM</li>
 
@@ -114,6 +118,15 @@ padding:7px 25px;background-size: cover; background-position: center; background
 
         </div>
     </li>
+
+            <a href="./team.html">
+<li id="team" >PROJECT
+    <div id="team_drop" class="dd">
+        <div class="dd_menu">- Current Project</div>
+        <div class="dd_menu">- Completed Project</div>
+    </div>
+</li>
+            </a>
 
             <a href="./team.html">
 <li id="team" >TEAM
