@@ -119,7 +119,7 @@ padding:7px 25px;background-size: cover; background-position: center; background
         </div>
     </li>
 
-            <a href="./team.html">
+            <a href="./project.html">
 <li id="team" >PROJECT
     <div id="team_drop" class="dd">
         <div class="dd_menu">- Current Project</div>
