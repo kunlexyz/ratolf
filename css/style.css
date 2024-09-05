@@ -109,7 +109,7 @@ body{
     margin-block-end: 1em;
 }
 .font17{
-    font-size: 17px;
+    font-size: 18px;
 }
 .myBtn{
     background: #00f;
@@ -172,6 +172,7 @@ body{
 #logo{
     width:150px; 
     margin-top: 10px;
+    height: 50px;
 }
 .r{
     
@@ -461,4 +462,12 @@ transform: rotate(-37.5deg) skew(10deg);
 }
 .para_con p{
     padding:0 40px;
+}
+
+.just p{
+    max-width: 400px;display: inline-block; text-align: justify;
+}
+.dim li, .dim a{
+    color: #000;
+    margin: 10px 0;
 }
