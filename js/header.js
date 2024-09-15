@@ -8,7 +8,7 @@ header=`
     </div>    
     <div class="mobile" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
         padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
-            <img id="logo"  src="image/logo.png" alt="">
+            <img id="logo"  src="image/ratolf_logo.jpg" alt="">
             <div style="float: right;font-family: the_font;">
                 <ul>
                     <a href="./index.html">
@@ -41,7 +41,7 @@ header=`
 <div class="tab" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
 padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
     <div class="ce" >
-        <img id="logo"  src="image/logo.png" alt="">
+        <img id="logo"  src="image/ratolf_logo.jpg" alt="">
     </div>
     <div style="font-family: the_font;text-align: center;">
         <ul>
@@ -80,7 +80,7 @@ padding:7px 25px;background-size: cover; background-position: center; background
 
 <div class="desktop" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
 padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
-    <img id="logo"  src="image/logo.png" alt="">
+    <img id="logo"  src="image/ratolf_logo.jpg" alt="">
     <div style="float: right;font-family: the_font;">
         <ul>
             <a href="./index.html">

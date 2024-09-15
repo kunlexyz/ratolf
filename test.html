@@ -3,44 +3,200 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .flex-container01{
-            padding: 60px;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: center;
-            background: #4279ba;
-        }
-        .fl2{
-            display: flex;
-            justify-content: center;
-        }
-        .circle-icon {
-            border-radius: 50%;
-            padding: 10px;
-            margin: 5px;
-            background-color: #fff;
-            width: 45px;
-            height: 45px;
-            box-sizing: border-box;
-            text-align: center;
-        }
-        .circle-icon:hover{
-            background-color: red;
-        }
-        
-@media only screen and (min-width: 951px){
-    .circle-icon{
-        padding: 20px;
-        width: 62px;
-        height: 64px;
-    }
-}
-    </style>
+    <title>test</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/about.css">
+    
 </head>
 <body>
+
+    <div id="head_man">
+<!--heading-->
+    <!--mobile heading-->
+    <div class="parent" onclick="openNav()">
+        <div style="background-color: green;" class="menu"></div>
+        <div style="background-color: yellow;" class="menu"></div>
+        <div class="menu"></div>
+    </div>    
+    <div class="mobile" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
+        padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
+            <img id="logo"  src="image/ratolf_logo.jpg" alt="">
+            <div style="float: right;font-family: the_font;">
+                <ul>
+                    <a href="./index.html">
+	<li>HOME</li>
+</a>
+                    <a href="./about.html">
+<li>ABOUT</li>
+</a>
+                    <a href="./team.html">
+<li>TEAM</li>
+</a>
+                    <a href="./get_involve.html">
+	<li>GET INVOLVE</li>
+</a>
+            
+<a href="./media.html">
+                    <li>MEDIA</li>
+                    </a>
+                    
+                    <a href="./contact.html">
+                        <li>CONTACT</li>
+                    </a>
+            <li style="color: red;">DONATE</li>
+                </ul>
+            </div>
+    </div> 
+    <!-- end of mobile heading-->
+
+    <!-- tab heading -->
+<div class="tab" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
+padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
+    <div class="ce" >
+        <img id="logo"  src="image/ratolf_logo.jpg" alt="">
+    </div>
+    <div style="font-family: the_font;text-align: center;">
+        <ul>
+            <a href="./index.html">
+	<a href="./index.html">
+	<li>HOME</li>
+</a>
+</a>
+            <a href="./about.html">
+                <li>ABOUT</li>
+            </a>
+
+            <a href="./ABOUT.html">
+                <li>PROJECT</li>
+            </a>
+            
+<li >TEAM</li>
+
+            <a href="./get_involve.html">
+	<li>GET INVOLVE</li>
+</a>
+            
+<a href="./media.html">
+            <li>MEDIA</li>
+            </a>
+
+            <a href="./contact.html">
+                <li>CONTACT</li>
+            </a>
+            <li style="color: red;">DONATE</li>
+        </ul>
+    </div>
+
+</div> 
+    <!-- End of tab heading-->
+
+<div class="desktop" style="background:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image/nav.jpg);
+padding:7px 25px;background-size: cover; background-position: center; background-repeat: no-repeat;" >
+    <img id="logo"  src="image/ratolf_logo.jpg" alt="">
+    <div style="float: right;font-family: the_font;">
+        <ul>
+            <a href="./index.html">
+	<li id="home">HOME <!--
+        <div id="home_drop" class="dd">
+            <div class="dd_menu">- Story Behind</div>
+            <div class="dd_menu">- Save</div>
+            <div class="dd_menu">- Our Latest Activities</div>
+            <div class="dd_menu">- Acount</div>
+        </div>-->
+    </li>
+</a>
+            
+    <li id="about">
+        <a href="./about.html#about_us"> ABOUT </a>
+        <div id="about_drop" class="dd">
+            <a href="./about.html#about_us">
+                <div class="dd_menu">- About Us</div>
+            </a>
+            <a href="./about.html#purpose">
+                <div class="dd_menu">- Our Purpose</div>
+            </a>
+            <!--
+            <a href="./about.html#">
+                <div class="dd_menu">- Our Mission</div>
+            </a>
+                <div class="dd_menu">- Our Vision</div>
+            -->
+            <a href="./about.html#support">
+                <div class="dd_menu">- Our Support Areas</div>
+            </a>
+            <a href="./about.html#commitment">
+                <div class="dd_menu">- Our Commitments</div>
+            </a>
+
+        </div>
+    </li>
+
+            <a href="./project.html">
+<li id="team" >PROJECT
+    <div id="team_drop" class="dd">
+        <div class="dd_menu">- Current Project</div>
+        <div class="dd_menu">- Completed Project</div>
+    </div>
+</li>
+            </a>
+
+            <a href="./team.html">
+<li id="team" >TEAM
+    <div id="team_drop" class="dd">
+        <div class="dd_menu">- Advisory Board</div>
+        <div class="dd_menu">- </div>
+    </div>
+</li>
+            </a>
+	<li id="get">
+            <a href="./get_involve.html">
+            GET INVOLVE
+            </a>
+        <div id="get_drop" class="dd">
+        <a href="./get_involve.html#compassion">
+            <div class="dd_menu">- Compassion</div>
+            </a>
+            <a href="./get_involve.html#community">
+            <div class="dd_menu">- Community Empowerment</div>
+            </a>
+            <a href="./get_involve.html#transforming">
+            <div class="dd_menu">- Transforming communities</div>
+            </a>
+            <a href="./get_involve.html#youth">
+            <div class="dd_menu">- Youth Empowerment</div>
+            </a>
+            <!--
+            <div class="dd_menu">- Mission</div>
+            -->
+        </div>
+    </li>
+</a>
+            
+<a href="./media.html">
+            <li>MEDIA</li>
+            </a>
+            
+            <a href="./contact.html">
+                <li>CONTACT</li>
+            </a>
+            <a href="./donation.html">
+                <li id="donate" >DONATE
+                    <div id="donate_drop" class="dd">
+                        <div class="dd_menu">- Finance</div>
+                        <div class="dd_menu">- Giving</div>
+                        <div class="dd_menu">- Practice</div>
+                        <div class="dd_menu">- BANK ACCOUNT</div>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    
+</div> 
+</div>
+<!--heading end -->
+
     <div class="flex-container01" style="  ">
         <h3 style="color: #fff;text-align: center;font-size: 30px;">Follow Us</h3>
         <div class="fl2">
