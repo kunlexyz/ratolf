@@ -60,7 +60,7 @@ font-family: the_font;">
     </div>
 
     <div class="ff ce" style="background: orangered;color:#fff;padding: 30px;">
-        ©ratolf. 2023 
+        ©ratolf. 2024 
     </div>
 </footer>
 
@@ -91,7 +91,7 @@ font-family: the_font;">
         </div>
     </div>
     <div class="ff ce" style="background: orangered;color:#fff;padding: 10px;">
-        ©ratolf. 2023 
+        ©ratolf. 2024
     </div>
 </footer>
 
