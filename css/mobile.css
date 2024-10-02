@@ -186,6 +186,29 @@
         position: absolute;
         display: none;
     }
+
+    .field_2{
+        width: 100%;
+        margin-top: 15px;
+        box-sizing: border-box;
+        border: solid 2px #aaa;
+        border-radius: 5px;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .pic_con_tab {
+        width: 100%;
+        display: block;
+    }
+    .pastor_pic_2{
+        width: 70%;
+        margin: auto;
+    }
+
+    .pastor_name_2{
+        padding: 10px;
+    }
 }
 
 /*
@@ -198,7 +221,7 @@ css code for Pop Out Menu
     z-index: 100;
     top: 0;
     left: 0;
-    background-color:#F60;
+    background-color:#141f3d;
     overflow-x: hidden;
     transition: 0.5s;
     text-align:center;
@@ -218,19 +241,18 @@ css code for Pop Out Menu
     width: 100%;
     text-align:left;
     padding: 10px 0px;
-    background-color:#FFF;
   }
   
   .overlay .menu1 {
-    padding: 8px;
+    padding: 5px;
     text-decoration: none;
-    font-size: 14px;
-    color: #222;
+    font-size: 16px;
+    color: #fff;
     display: block;
     transition: 0.3s;
   }
   .menu1:hover{
-      cursor:pointer;background-color:#DDD;
+      cursor:pointer;background-color:rgb(3, 3, 146);
   }
   .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
@@ -254,9 +276,19 @@ css code for Pop Out Menu
   
   .bull{
       padding:4px;
-      background-color:#F60;
+      background-color:#FFF;
       display:inline-block;
       vertical-align:middle;
       margin-right:10px;
+  }
+
+  .mobile_menu{
+    margin-left: 15px;
+    color: rgb(0, 119, 255);
+    font-size: 14px;
+    padding: 2px;
+  }
+  .mobile_menu:hover{
+    color: yellow;
   }
   /* @end of Pop Out Menu*/

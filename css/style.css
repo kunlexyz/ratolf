@@ -264,7 +264,7 @@ ul{
     text-transform: capitalize;
     margin-bottom: 30px;
 }
-.bull {
+footer .bull {
     padding: 4px;
     background-color: #F60;
     display: inline-block;
@@ -353,6 +353,19 @@ a, a:visited{
         min-height: 95px;
         box-shadow: 4px 4px 14px #ccc;
     }
+
+    .pic_con_tab {
+        width: 100%;
+        display: block;
+    }
+    .pastor_pic_2{
+        width: 250px;
+        margin: auto;
+    }
+
+    .pastor_name_2{
+        padding: 10px;
+    }
 }
 
 .card_con{text-align: center;}
@@ -420,6 +433,11 @@ transform: rotate(-37.5deg) skew(10deg);
     display: inline-block;
     vertical-align: top;
 }
+.footer_heading_mobile{
+    font-size: 30px;
+    color: #e8f706;
+    margin: 20px 0 10px;
+}
 .footer_heading{
     font-size: 45px;
     color: #e8f706;
@@ -475,4 +493,13 @@ transform: rotate(-37.5deg) skew(10deg);
     width: 24%;
     box-sizing: border-box;
     display: inline-block;
+}
+.tab_images{
+    width:350px;margin: auto;
+}
+.tab_footer_box{
+    width: 49%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
 }

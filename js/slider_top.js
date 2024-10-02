@@ -329,7 +329,7 @@ if(turn_m%2==0){
     $('.m_sl:eq('+(turn-1)+')').delay(3000).fadeOut(2000);
 }
     
-    console.log(turn_m,turn);
+    //console.log(turn_m,turn);
     turn_m++;
     if(turn_m>=document.getElementsByClassName('m_sl').length){
         turn_m=0

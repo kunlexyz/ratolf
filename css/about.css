@@ -68,24 +68,38 @@ body{
         top:150px;
         color:#fff;
     }
-    #major_con{
-        padding: 10px 15px;
+    #about_{
+        top:210px;
+    }
+    #major_con, .major_con{
+        padding: 20px;
         max-width: 900px;
         margin: auto;
     }
     .about_img, .about_img_2{
-        float:right;
+        float:none;
         width: 335px;
-        margin: 0px;
-        margin-right: 0px;
-        margin-bottom: 5px;
+        margin: auto;
     }
-    
+    .mind_big {
+        margin: 0 auto;
+    }
+    .our{
+        font-size: 40px;font-weight: bolder;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .segment_banner{
+        height: 200px;
+    }
 
 }
 @media only screen and (min-width: 481px) and (max-width: 950px){  
     
     #about{top:190px;}
+    #about_{
+        top:310px;
+    }
     .mind_big {
         max-width: 700px;
         margin: 20px auto;
