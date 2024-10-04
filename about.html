@@ -446,7 +446,7 @@ padding:7px 25px;background-size: cover; background-position: center; background
 <div id="purpose" class="segment">
     <div class="segment_banner" style="background: url('./image/statement.jpg');
     background-size: 100% 100%;">
-        <div style="font-size: 77px;font-weight: bolder;text-shadow:4px 4px #333;margin: auto;margin-top: 100px;color: rgb(199, 16, 241);"> 
+        <div class="our" style="color: rgb(199, 16, 241);"> 
             OUR PURPOSE
         </div>
     </div>
@@ -496,10 +496,10 @@ padding:7px 25px;background-size: cover; background-position: center; background
     <div class="mind_big about_story segment_inner">
         <div class="major_con">        
 
-        <table style="width: 100%;">
+        <table class="desktop_and_tab" style="width: 100%;">
             <tr>
                 <td valign="top">
-        <p>
+        <p style="margin-top: 0px;">
         <span class="drop_cap" style="color: rgb(199, 16, 241);">T</span>he possibilities for support, include funding and organizing:
         Neglected and Abandoned Children, Christian counseling, Training soldiers for the Lord, Seminars for people suffering from depression, Christian Training on Entrepreneurship to the community, Supporting the poor and the needy, and the elderly with food parcels and clothing, etc.
         </p>
@@ -544,34 +544,86 @@ padding:7px 25px;background-size: cover; background-position: center; background
         </ul>
 
                 </td>
-                <td>
-                    <img class="about_img desktop_and_tab" src="./image/compassion.jpg" >
-                     <img class="about_img desktop_and_tab" src="./image/support2.jpg" >
+                <td valign="top">
+                    <img class="about_img" src="./image/compassion.jpg" >
+                     <img class="about_img" src="./image/support2.jpg" >
                 </td>
             </tr>
         </table>
+
+        <div class="mobile ce">
+            
+            <img class="about_img" src="./image/compassion.jpg" >
+            <p>
+            <span class="drop_cap" style="color: rgb(199, 16, 241);">T</span>he possibilities for support, include funding and organizing:
+            Neglected and Abandoned Children, Christian counseling, Training soldiers for the Lord, Seminars for people suffering from depression, Christian Training on Entrepreneurship to the community, Supporting the poor and the needy, and the elderly with food parcels and clothing, etc.
+            </p>
+
+            <img class="about_img" src="./image/support2.jpg" >
+            
+        <ul>
+            <li>
+                Community Outreach/Community Impact
+            </li>
+        	<li>
+        Youth Empowerment
+    </li>
+    <li>
+            
+        Prison Outreach
+    </li>
+    <li>
+        Global Outreach
+    </li>
+    <li>
+        Helping the Orphans
+    </li>
+    <li>
+        School of Worship
+    </li>
+    <li>
+        Building Projects
+    </li>
+    <li>
+        Land Purchases
+    </li>
+    <li>
+        Church and Ministries Registration.
+    </li>
+    <li>
+        Media Ministries
+    </li>
+    <li>
+        Ministry Interns
+    </li>
+    <li>
+        Ministry Interns
+    </li>
+        </ul>
+        </div>
        
 
-        </div></div>
+        </div>
+    </div>
 </div>
 
 <div id="commitment" class="segment">
     <div class="segment_banner" style="background: url('./image/statement.jpg');
     background-size: 100% 100%;">
-        <div style="font-size: 77px;font-weight: bolder;text-shadow:4px 4px #333;margin: auto;margin-top: 100px;color: rgb(199, 16, 241);"> 
-            Our Commitments
+        <div class="our"> 
+            Our <br> Commitments
         </div>
     </div>
 
     <div class="mind_big about_story segment_inner">
         <div class="major_con">
-            <img class="about_img desktop_and_tab" src="./image/commitment.jpg" >
+            <img class="about_img" src="./image/commitment.jpg" >
 
         <p>
         <span class="drop_cap">R</span>iver and Tree of Life Foundation generate and provides resources for strategic projects and outreaches, into the local and global communities, while communicating the love of Jesus Christ in practical and tangible ways.
         River and Tree of Life Foundation support the expansion of small communities, small Churches / Ministries, Youth Empowerment, Prison outreaches. RATOLF Engages young people through community-based Education, Mentoring, and Training on how to choose their careers, for those brilliant students who would like to study abroad, we will connect them with the best universities in the world. RATOLF will engage the youth on how to be involved in entrepreneurship in the future and rollout employment readiness programs to help them develop skills and strengthen ties with the kingdom of God, family, and community. In this way, the church can reach more individuals in their community and around the world, helping them in spiritual and tangible ways.
     </p><p>
-        <img class="about_img desktop_and_tab" src="./image/commit2.jpg" >
+        <img class="about_img" src="./image/commit2.jpg" >
         The Foundation also will provide an excellent stewardship opportunity for those seeking to invest in the Kingdom of God. The foundation will utilize funds received for projects in both the short term and long term. The funds will be promptly put to work where they can have a significant and immediate impact, while other funds will be responsibly invested to meet future needs.
     </p><p>
         The Foundation’s Board of Trustees would evaluate all applications based on need and without partiality or restriction in the field of sectarian religion. We would invite you to submit an application if your Church,community, and your Ministry meets one or more of the objectives of the River and Tree of Life Foundation.
@@ -615,6 +667,7 @@ window.onhashchange = function(){
     for(i=0;i<sub_page.length;i++){
         if(navi(sub_page[i])){console.log(sub_page[i]);break;}
     }
+    closeNav();
 }
 
 var old='';oldx='';

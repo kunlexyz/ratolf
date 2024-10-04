@@ -9,14 +9,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/mobile.css">
     <link rel="stylesheet" href="./css/donation.css">
-    <style>
-        
-    </style>
-</head>
-<body>
-    <div id="head_man"></div>
-    <img style="width: 100%;" src="./image/contact2.png">
-
+    <link rel="stylesheet" href="./css/contact.css">
     <style>
         ._2box{
             background: none;
@@ -52,103 +45,95 @@
             border: none;
         }
     </style>
-    <div class="mind_big" 
-        style="background: rgb(252, 193, 112);
-        background-image: url(./image/abstract-geometric.jpg);
-        background-size: 100% 100%;
-        "
-    >
-        <div class="_2box">
-            <img src="./image/chat-3d.jpg" class="_2_images" />
+</head>
+<body>
+    <div id="head_man"></div>
+    <img style="width: 100%;" src="./image/contact2.png">
+
+    <div class="mind_big major_con" style="margin-top: 0;">
+        <div class="contact_headin">
+            Email:
         </div>
-        <div class="_2box" style="
-            background-size: 100% 100%;
-            min-height: 400px;
-            padding: 20px;
-            ">
-            <div class="addr">Email:</div>
-            <div class="addr_value">
-                info@ratolf.org <br>
-rivertreeoflifefoundation@gmail.com</div>
-            <div class="addr">Phone Number:</div>
-            <div class="addr_value"> +234 805 544 1551</div>
-            <div class="addr">Address:</div>
-            <div class="addr_value">
-                <ul>
-                    <li>
-                        <u>ABUJA ADDRESS</u><br>
+        <div class="side_line">
+            info@ratolf.org <br>
+            rivertreeoflifefoundation@gmail.com
+        </div>
 
-PLOT 2528, LINDA CHALKER CRESCENT, 
-ASOKORO
-EXTENSION, ABUJA, FCT, NIGERIA
-                    </li>   
-                    <li>
-<u>LAGOS TEMPORARY ADDRESS</u><br>
+    </div>
 
-29, SHIPEOLU STREET,
-ONIPANU, SHOMOLU, LAGOS, 
-NIGERIA.
-                    </li>
-                </ul>
-            </div>
-            <div class="addr">Send us mail </div>
-            <div class="addr_value">
-                Interested in collaborating with us to reach the unreached and unchurched? Drop us a mail.
-            </div>
+    <div class="mind_big major_con" style="margin-top: 0;">
+        <div class="contact_headin">
+            Phone Number:
+        </div>
+        <div class="side_line">
+            +234 805 544 1551
         </div>
     </div>
-    <div class="mind_big">
-        <div style="width: 65%;
-            background: rgb(252, 193, 112);min-height: 500px;
-        background-image: url(./image/abstract-3d.jpg);
-        background-size: 100% 100%;
-        padding: 50px;
-        box-sizing: border-box;
-        display: inline-block;
-        vertical-align: top;
-        ">
-            <h2 style="color: #fff;">Send us a message</h2>
-            <input type="text" placeholder="First Name" class="ad_2" >
-            <input type="text" placeholder="Last Name" class="ad_2" >
-            <input type="email" placeholder="Email" class="ad_2" >
-            <input type="tel" placeholder="Phone Number" class="ad_2" >
 
-            <textarea
-            style="
-                width: 98%;
-                min-height: 200px;
-                border: orange solid 2px;
-            "
-            ></textarea>
-            <button style="   
-                background: linear-gradient(#b690e3,#7b55c4);
-                padding: 15px;font-size: 22px;
-                color: #fff;
-                border: solid #fff 2px;
-            ">
-                Submit Now
-            </button>
+    <div class="mind_big major_con" style="margin-top: 0;">
+        <div class="contact_headin">
+            Address:
         </div>
-        <div style="width:33%;display: inline-block;">
-            <img src="./image/chat-3d.jpg" class="_2_images">
-            <img src="./image/call.jpg" class="_2_images">
+        <div class="side_line">
+            <ul style="display: block;">
+                <li>
+                    <p class="stron">
+                        ABUJA ADDRESS
+                    </p>
+
+            PLOT 2528, LINDA CHALKER CRESCENT, 
+            ASOKORO
+            EXTENSION, ABUJA, FCT, NIGERIA
+
+            </li>   
+            <li>
+                <p class="stron">
+                    LAGOS TEMPORARY ADDRESS
+                </p>
+
+                29, SHIPEOLU STREET,
+                ONIPANU, SHOMOLU, LAGOS, 
+                NIGERIA.
+                                                        </li>
+                                                    </ul>
+
         </div>
     </div>
-    <div style="position: fixed; bottom: 10px;right: 5px;">
-        <div style="
-            background: #fff;
-            box-shadow: 0 0 8px #999;
-            padding: 10px;
-            font-size: 15px;
-            display: inline-block;
-            border-radius: 9px;
-            
-        ">Chat with us</div>
-        <img src="./image/chat-with.png" style="width: 50px;vertical-align: bottom;" />
+
+    <div class="mind_big major_con ce" style="margin-top: 0;">
+        <table>
+        <tr>
+            <td valign="middle" style="width: 50%;color:blue; font-size: 22px;text-align: center;">
+                Send us mail
+            </td>
+            <td align="center" style="width: 50%;">
+                <img src="./image/chat-3d.jpg" 
+                style="width: 90%;" />
+            </td>
+        </tr>
+        </table>
+        <div>
+            Interested in collaborating with us to reach the unreached and unchurched? <br>Drop us a mail.
+        </div>
     </div>
+
 
     <div id="ratolf_footer"></div>
 </body>
 <script type="text/javascript" src="./js/header.js"></script>
 <script type="text/javascript" src="./js/footer.js"></script>
+<script>
+    
+    var old='';oldx='';
+    function openNav() {
+      document.getElementById("myNav").style.width = "75vw";
+      document.getElementsByClassName('overlay2')[0].style.display='block';
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+      document.getElementsByClassName('overlay2')[0].style.display='none';
+    }
+    
+</script>
 </html>

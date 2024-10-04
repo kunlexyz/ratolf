@@ -1,0 +1,44 @@
+.contact_headin{
+    background-color: blue;
+    border-bottom: #006aff solid 2px;
+    color: #fff;
+    font-size: 22px;
+    padding: 20px 10px;
+}
+
+.side_line{
+    border: #006aff solid 2px;
+    padding: 20px 10px;
+}
+.stron{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+    #major_con, .major_con {
+        padding: 10px 20px;
+        max-width: 900px;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 950px) {
+
+    #major_con, .major_con {
+        padding: 10px 15px;
+        max-width: 700px;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 951px) {
+
+    #major_con, .major_con {
+        padding: 30px 10px;
+        max-width: 900px;
+        margin: auto;
+        margin-top: -70px;
+    }
+}

@@ -259,16 +259,22 @@ font-family: the_font;">
             </a>
         </div>
 
-
-        <div class="menu1" onclick="instal()">
+         
+            <a href="./media.html">
+        <div class="menu1">
             <div class="bull"></div>MEDIA
         </div>
-        <div class="menu1" onclick="popName()">
+            </a>         
+            <a href="./contact.html">
+        <div class="menu1">
             <div class="bull"></div>CONTACT
         </div>
-        <div class="menu1" onclick="popName()">
+            </a>
+            <a href="./donation.html">
+        <div class="menu1">
             <div class="bull"></div>DONATE
         </div>
+            </a>
     </div>
 </div>
 <div class="overlay2" onclick="closeNav()"></div>
