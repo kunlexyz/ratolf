@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kunle Cares 2</title>
+    <link rel="stylesheet" href="./css/profile2.css" />
     <link rel="stylesheet" href="./css/profile2-mobile.css" />
     <link rel="stylesheet" href="./css/profile2-tab.css" />
     <link rel="stylesheet" href="./css/jquery.flipster.min.css">
@@ -114,6 +115,43 @@ max-width: 1100px;
 
 </div>
 
+    <!-- Slider #cceef9-->
+
+    <div class="font17" style="margin-top: 0px;padding-bottom: 10px;background:#ac05b1;
+   "> 
+        <!-- start pictures carousel -->
+        <h3 class="mind_big heading_topic" style="
+        font-size: 20px;
+        background: #ff0;
+    border-left: solid 6px rgb(241, 149, 11);
+        font-weight: 700;">CERTIFICATES</h3>
+        
+        <div class="hero">
+            <div class="carousel">
+                <ul>
+                    <li><img src="./kunle P/cert/Amazon_react.jpg" ></li>
+                    <li><img src="./kunle P/cert/c_shape.jpg" ></li>
+                    <li><img src="./kunle P/cert/coding_for_marketer.jpg" ></li>
+                    <li><img src="./kunle P/cert/CSS_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/Desktop_publishing.jpg" ></li>
+                    <li><img src="./kunle P/cert/dev certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/GameDev-with-JavaScript_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/google node certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/HTML_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/java.jpg" ></li>
+                    <li><img src="./kunle P/cert/jQuery_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/node.jpg" ></li>
+                    <li><img src="./kunle P/cert/PHP_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/Python_core.jpg" ></li>
+                    <li><img src="./kunle P/cert/react_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/Responsive-Web-Design_certificate.jpg" ></li>
+                    <li><img src="./kunle P/cert/System_engineering.jpg" ></li>
+                </ul>
+            </div>
+        </div>
+        <!-- end pictures carousel -->
+    </div>
+    <!-- Slider ends -->
 
 <div class="mind_big fine_con about_story" style="font-size: 18px;margin-top: 10px;background: url('./kunle P/bg_designs.png')">
     <div class="major_con">
@@ -185,7 +223,7 @@ max-width: 1100px;
         <li>Understanding of version control systems (Git).</li>
         <li>What are agile development methodologies?</li>
 
-        <div id="more_tab_story" onclick="showStory_tab()" class="myBtn tab_btn margin_l_r" style="margin-bottom: 10px;background: #2d1e41;">
+        <div id="more_tab_story" onclick="showStory_tab()" class="myBtn tab_btn margin_l_r" style="margin:20px 0 10px;background: #2d1e41;">
             Read more
         </div>
     </ul>
@@ -613,5 +651,29 @@ font-family: the_font;">
     <div class="overlay2" onclick="closeNav()"></div>
 </div>
 
+<script src="kunle P/js/jq.js"></script>
+<script src="kunle P/js/jquery.flipster.min.js"></script>
+<script type="text/javascript">
+    var offsetR = window.innerWidth - document.getElementById('menu_').offsetLeft - document.getElementById('menu_').offsetWidth;
+    document.getElementById('menu_02').style.right =(offsetR-15)+'px';
+    document.getElementById('lang_menu').style.right =(offsetR-15+110)+'px';
+    document.getElementById('lang_menu').style.top =(document.getElementById('prog').offsetTop+50)+'px';
+
+	$('.carousel').flipster({
+		style:'carousel',
+		spacing:-0.3,
+		autoplay:3000,
+		pauseOnHover: true,
+		loop:true
+	});
+	//math tricks
+
+    function sh(x,y='174px'){
+    $('#'+x).css({height:y});
+}
+function cl(x){
+    $('#'+x).css({height:'0px'});
+}
+</script>
 </body>
 </html>
